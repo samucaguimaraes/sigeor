@@ -1,0 +1,216 @@
+﻿body 
+{
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    color: #000000;
+    /*background-color: #F7F7F7; */
+    margin:0px;
+}
+
+.topo_geral
+{
+    background:url('../images/interna_04_06_2008.jpg') repeat-x;
+    height:100px;
+    margin-left: -120px;
+}
+
+.topo_login{background:#000000;color: White; text-align:right; padding:3px 20px 3px 0;}
+
+td, th, input, select, textarea, optgroup {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+a:link {
+  color: #0240a3;
+}
+
+a:visited {
+  color: #0240a3;
+}
+
+a:active {
+  color: #000000;
+}
+
+img {
+  border: none;
+}
+
+legend {
+  white-space: nowrap;
+}
+
+.displayNone {
+  display: none !important;
+}
+
+.dashed
+{
+    border:dashed 1px #DDDDDD;
+}
+
+
+.nomeProjeto
+{
+     border-bottom: solid 1px #E9A516;
+     font-size:15px;
+     margin:10px 10px 0px 10px;
+     font-weight:bold;
+     color:#333333;
+}
+.nomeTipologia
+{
+    text-align:right;
+     font-size:14px;
+     margin: 0px 10px 0px 10px;
+     font-weight:bold;
+     color:#333333;
+}
+
+.msg {border: solid 1px #5A5A00; background:#FFFFD9;color: #232305; 
+    padding:2px;margin: 5px 0px 2px 0px; font-weight:bold; display:block;}
+
+.cbl td{color: #000000;background:#FFFFF4;border: solid 1px #DDDDDD;}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 Navegação
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.navegacao {margin:10px; font-size:12px;}   
+.navegacao a{margin-right:5px;}   
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 Fases
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.tbfases {margin: 5px 10% 5px 10%; width:80%;text-align:center; background:#FFFFFF}
+.tbfases tr td {border: solid 1px #CCCCCC}
+.tbfases .hrtipo_projeto{background-color:#FDF4E8;}
+.tbfases .hrtotal{background-color:#ECECEC;}
+.tbfases .tipo {font-weight:bold}
+.tbfases .hrfases {height:40px; background-color:#FEFCF1}
+.ico_fase div{background:url('../images/fases.gif') no-repeat; width:40px; height:42px; margin: 0 auto;}
+.ico_fase .revisao { background-position: 0 -1px; }
+.ico_fase .estruturacao  { background-position: 0 -43px;margin-top:10px;}
+.ico_fase .encerrado  { background-position: 0 -87px;margin-top:10px;}
+.ico_fase .execucao{ background-position: 0 -129px;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 Fases
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.tblegenda {margin: 5px 15% 5px 15%; width:70%;
+text-align:center; background:#FFFFFF;}
+.tblegenda .header {background:url(../images/box/bgd.jpg) repeat-x; height:23px; font-weight:bold;}
+.tblegenda tr td {border: solid 1px #CCCCCC}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 Grafico Ação
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.grafAcao
+{
+     width:100%;
+     text-align:center;
+     border-bottom: solid 1px #CCCCCC; border-right:solid 1px #CCCCCC;
+}
+.grafAcao tr td {border: solid 1px #CCCCCC; border-bottom:none; border-right:none}
+.barraAcao
+{
+    background:url('../images/barra_acao.png') repeat-x;
+    height:16px;
+} 
+.grafAcao .anos
+{
+    background:#EDEDE4;
+} 
+.grafAcao .meses
+{
+    background:#F3F4D7;
+}
+.grafAcao .anos2
+{
+    background:#E2E2D3;
+} 
+.grafAcao .meses2
+{
+    background:#EDEEC1;
+}
+.grafAcao .meses, .meses2
+{
+    padding: 0 3px 0 3px;
+}
+.grafAcao .nmAcao{
+    text-align:left;
+    background:#F4F4F0;
+    padding: 7px 0 7px 5px;
+}
+  
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 List Grid
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.tblist {width:97%;margin: 5px 1% 5px 1%; background:#FFFFFF}
+.tblist tr td {border: solid 1px #CCCCCC}
+.hr_white{background:url('../images/hr-list-white.png') no-repeat;font-weight:bold;}
+.hr_white td {font-size:15px; color:#333333}
+.hr_yellow{background:url('../images/hr-list-yellow.png') no-repeat;font-weight:bold;}
+.hr_yellow td {font-size:12px; color:#333333}
+.hr_orange{background:url('../images/hr-list-orange.png') no-repeat; font-weight:bold}
+.hr_orange td {color:#333333}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 Find Grid
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.btnSearch{background:url('../images/btn_search_bg.gif') no-repeat; padding-left:20px;}
+.btnShowAll{background:url('../images/btn_show-all_bg.gif') no-repeat;padding-left:20px;}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 GridView
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.headerGrid{background:#FAF5DC; font-weight:bold; text-align:left;}
+.headerGridSorted{background:#ABBEEF; font-weight:bold; text-align:left; }
+.RowGrid{}
+.AlternatingRowGrid {background:#FFFFFF;}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 Dados Usuário
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.userInfo {margin-bottom:10px;}
+.userInfo .userTitle{font-weight:bold;margin-bottom: 5px;}
+.userInfo .userName{background: url('../images/ico_user.gif') no-repeat; padding: 0 0 5px 25px; margin-left:10px;}
+.userInfo .userMail a {background: url('../images/ico_email.gif') no-repeat;padding: 0 0 5px 25px; margin-left:10px; line-height:25px;}
+.userInfo .userFone {background: url('../images/ico_fone.gif') no-repeat; padding: 0 0 5px 25px; margin-left:10px;}
+.userInfo .userMobile {background: url('../images/ico_mobile.png') no-repeat; padding: 0 0 5px 25px; margin-left:10px;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 Buttons
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.btnG
+{
+ 	background:#F0DDA2 url(../images/box/bg_nav_main_current.png) repeat-x 0 -118px;
+    text-decoration:none;
+	padding: 3px 4px 3px 2px;
+	margin: 1px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	border:2px solid #858585;
+	border-bottom:2px solid #555555;
+	border-right:2px solid #555555;
+	white-space:nowrap;
+	display: inline-table;
+	display: -moz-inline-box;
+	display: inline-block;
+}
+.PostButton {background-position:5px 0;padding:6px 30px 6px 30px; font-size:12px;  }
+
+.pzoom{margin:0 5px 0 0;text-align:right;}
+.pzoom b{border:solid 1px #7F7F7F;color:#3F3F3F; padding:0 2px 0 2px }
+.pzoom a:link {text-decoration:none; font-size:x-small; margin-left:2px;}
+.pzoom small{color:#7F7F7F;}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 Monitoramento
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.monTitPainel
+{
+    font-weight:bold; font-size:12px; text-align:center; margin:0; padding:2px 0 2px 0;
+    border-bottom:dashed 1px #DDDDDD; background:#FFF8E8;
+}

@@ -1,0 +1,2721 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head><meta name="GENERATOR" content="CommunityServer 2007 SP1 (Debug Build: 20510.895)" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="Forums RSS (RSS 2.0)" href="http://forums.asp.net/aggregaterss.aspx?Mode=0"  />
+
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=7" />
+            <link rel="stylesheet" href="/themes/FAN/style/Common.css?d=060607" type="text/css" media="screen" />
+            <link rel="stylesheet" href="/themes/FAN/style/common_print.css" type="text/css" media="print" />
+            
+    
+	<link rel="stylesheet" href="/Themes/fan/style/forum.css?d=071907" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/Themes/fan/style/forum_print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="http://static.asp.net/asp.net/c/job-burner.css" type="text/css" media="screen" />
+    
+    <meta http-equiv="Refresh" content="300" />
+
+
+            <link rel="stylesheet" href="/themes/fan/style/fan.css?d=051208" type="text/css" media="screen" />
+            <link rel="stylesheet" href="/themes/fan/style/fan_print.css" type="text/css" media="print" />          
+            <link rel="stylesheet" href="/utility/colorcode.css" type="text/css" media="screen" />        
+            <link rel="shortcut icon" href="http://static.asp.net/www/i/favicon.ico" /> 
+            
+            <link rel="stylesheet" href="/PageGate/style/PageGate.css" type="text/css" media="screen" />        
+            <script type="text/javascript" src="/PageGate/js/PageGate.js" ></script>
+            <script type="text/javascript" src="/PageGate/js/Silverlight.js" ></script> 
+             
+            <script type="text/javascript" src="/a/textAds.js?up=040308"></script>            
+        <title>
+	Forums - ASP.NET Forums
+</title></head>    
+    <!--[if lte IE 7]>
+
+    <script language="javascript">
+    
+        // Because IE 6 and less will sometimes render 
+        // floating <div> tags incorrectly, I am forcing 
+        // the window to repaint which corrects the problem.
+        function fixIEPaintBug()
+        {    
+            document.getElementById('CommonContent').style.height = "1%";
+        }
+        
+        attachEvent("onload", fixIEPaintBug);
+
+    </script>    
+    
+    <![endif]-->      
+	<body class="forum" onload="PageGate('/PageGate/checkcookie.html', '/PageGate/installprompt.html');">
+		<form name="aspnetForm" method="post" action="/default.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE4NzE5MDE4NDlkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBTVjdGwwMCRjdGwwMCRiaGNyJFNlYXJjaEZvcm0xJGN0bDAwJFRpdGxlQmFyU2VhcmNoVGV4dOOKzLhgQPXsITsaZQm7LJc9cRYB" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+
+<script src="/WebResource.axd?d=gsw6MlIUDdKdmLYbbcBrECgFavPdf19SmrT-yRhrPPzBFI6VPX6o7tGsTGY18dcPaNDJOXHiwZr06ueB-0F6VMiT8tYJVsrKAUvC8ygjeo01&amp;t=633269393580000000" type="text/javascript"></script>
+<script src="/WebResource.axd?d=J1hksw-hD7hv_ORyTj2qdhHKlC7Oddil8eixZtT8LFu2jE2HPY18SDuMZGMBCOJ6l7dkFeWC7-7HlOpMTdQFThunYDA1Tuos0&amp;t=633307998080000000" type="text/javascript"></script>
+<script src="/WebResource.axd?d=J1hksw-hD7hv_ORyTj2qdhHKlC7Oddil8eixZtT8LFu2jE2HPY18SDuMZGMBCOJ6l7dkFeWC7-4SIfYTq56Jecj_6aYg8oHA0&amp;t=633307998080000000" type="text/javascript"></script>
+
+            <script src="http://www.mscommunities.com/CommunityBar.ashx" type="text/javascript" language="javascript"></script>
+            <script src="/__utm.js" type="text/javascript"></script> 
+            
+			
+			
+			
+
+            <div class="content_container">
+		        
+                    <div class="header_container">
+                        <div class="header_top">
+                            <div class="header_top_right"></div>
+                        </div>
+                        <div class="header_content">
+                            <div class="header_content_right"><a href="http://www.asp.net/" title="Home"><ContentTemplate><img class="logo" src="/Themes/FAN/style/i/logo.png" alt="Microsoft ASP.net" /></ContentTemplate></a>
+                                <ul class="nav_main">
+                                    <li class="first"><a href="http://www.asp.net/">Home</a></li>
+                                    <li><a href="http://www.asp.net/get-started/">Get Started</a></li>
+                                    <li><a href="http://www.asp.net/learn/">Learn </a></li>
+                                    <li><a href="http://www.asp.net/downloads/">Downloads</a></li>
+					                <li><a href="http://www.asp.net/ajax/">AJAX</a></li>
+                                    <li><a href="http://www.asp.net/community/">Community</a></li>
+                                    <li><a href="http://wiki.asp.net/">Wiki (Beta)</a></li>
+                                    <li class="active"><a href="http://forums.asp.net/">Forums</a></li>
+                                    <li class="search">                                            
+                                            <div id="SearchBoxWrapper">
+                                                <input name="ctl00$ctl00$bhcr$SearchForm1$ctl00$TitleBarSearchText" type="text" maxlength="64" id="ctl00_ctl00_bhcr_SearchForm1_ctl00_TitleBarSearchText" class="search_box" onclick="if(this.defaultValue==this.value) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" onkeydown="return KeyDownHandlerctl00_ctl00_bhcr_SearchForm1_ctl00_TitleBarSearchButton(event);" />
+                                            </div>                                            
+                                            <input type="submit" name="ctl00$ctl00$bhcr$SearchForm1$ctl00$TitleBarSearchButton" value="Search" id="ctl00_ctl00_bhcr_SearchForm1_ctl00_TitleBarSearchButton" class="search_button" />
+                                        </li>                                    
+                                </ul>                       
+                                <div class="nav_login_user">                                
+                                     
+        <p>
+            <a href="/login.aspx?ReturnUrl=%2fdefault.aspx">Sign in </a>
+             | <a href="/user/CreateUser.aspx?ReturnUrl=">Join</a>
+         </p>
+     
+
+
+
+		                        </div>
+		                    </div>
+                        </div>
+                        <div class="header_breadcrumb_top">
+                            <div class="header_breadcrumb_top_right"></div>
+                        </div>
+                        <div class="header_breadcrumb_content">
+                            <div class="header_breadcrumb_content_right"><a href="http://www.asp.net/">Home</a> &#8250; 
+                                
+    
+    <div class="CommonBreadCrumbArea"><div class="Common"><a href="/">ASP.NET Forums</a></div></div>
+
+                        
+                            </div>
+                        </div>
+                        <div class="header_breadcrumb_bottom">
+                            <div class="header_breadcrumb_bottom_right"></div>
+                        </div>                       
+                    </div>
+                    <!-- END HEADER & BREADCRUMB -->   
+		        
+		        
+		        
+
+<div align="center" style="padding-top:5px;padding-bottom:5px;">
+<iframe src="/a/Banner.htm" width="468" height="60" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+</div>
+                            
+		        <div id="CommonSidebarRight">
+		            
+        
+	<div class="CommonSidebar">
+	    
+	            <div class="CommonSidebarArea">
+	                <div class="CommonSidebarRoundTop"><div class="r1"></div><div class="r2"></div><div class="r3"></div><div class="r4"></div></div>
+	                <div class="CommonSidebarInnerArea">
+			            <h4 class="CommonSidebarHeader">Shortcuts</h4>
+			            <div class="CommonSidebarContent">
+			                <ul class="CommonSidebarList">
+			                    
+			                
+			                    <li><a href="../../../TopicsActive.aspx" id="ctl00_ctl00_rcr_rcr_ctl00_ctl00_A1">Active Posts</a></li>
+			                    <li><a href="../../../TopicsNotAnswered.aspx" id="ctl00_ctl00_rcr_rcr_ctl00_ctl00_A2">Unanswered Posts</a></li>
+                                    
+                                        
+			                    <li><a href="/user/ViewOnline.aspx">Who is Online</a></li>
+			                    <li><a href="http://www.asp.net/resources/support/default.aspx?tabid=41">Support Options</a></li>
+			                    <li><a href="../../../search/" id="ctl00_ctl00_rcr_rcr_A3">Advanced Search</a></li>
+                            </ul>
+			            </div>
+			        </div>
+		            <div class="CommonSidebarRoundBottom"><div class="r1"></div><div class="r2"></div><div class="r3"></div><div class="r4"></div></div>
+                </div>
+            </ContentTemplate>
+        </CSControl:PlaceHolder>
+	
+        <div class="ad_container_white bumptop"><div class="ad_top_white"><span></span></div><div class="ad_bucket_content"><p class="advertise_here"><span><a href="http://www.asp.net/advertise.aspx">Advertise here</a></span></p><div class="ad_bucket_contentarea"><P class="heading">Featured ASP.NET 2.0 Web Hosting</P><p align="center"><a href="http://www.appliedi.net/" target="_blank"><img src="http://ads.asp.net/ads/appliedinnovations_logo.gif" ></a></p><br><p>Featured ASP.NET 3.5 hosting offer <a href="http://www.appliedi.net/" target="_blank">from AppliedI.net</a></p><ul><li>Three (3) Months Free ASP.NET Hosting</li><li><a href="http://www.appliedi.net/aspnet-3.5-hosting/" target="_blank">ASP.NET 3.5</a>, <a href="http://www.appliedi.net/aspnet-hosting/ajax-hosting.html" target="_blank">AJAX</a>, <a href="http://www.appliedi.net/aspnet-3.5-hosting/" target="_blank">LINQ</a>, <a href="http://www.appliedi.net/silverlight-hosting/" target="_blank">Silverlight Ready</a>!</li><li>Free SQL2005 Database Included</li><li><a href="http://www.appliedi.net/reporting-services/" target="_blank">Free SQL2005 Reporting Services</a></li><li>Free Real Time SQL Backup/Restore Tool</li><li>SQL2005 available as add-on.</li><li><a href="http://www.appliedi.net/vps-hosting/" target="_blank">Windows VPS</a> and <a href="http://www.appliedi.net/windows2008-developer-servers/" target="_blank">Dedicated Hosting</a> Available too!</li><li>24/7 Phone, Live-Chat, E-Mail Support</li></ul><p><a href="http://www.appliedi.net/reseller-hosting/" target="_blank">Click Here To Learn More...</a></p></div></div><div class="ad_bucket_bottom"><span></span></div></div>	    
+	
+
+        
+	     
+                <div class="previous_next_community_blank">   
+                    <div class="previous_next_community">
+                    <h2>Top Answerers</h2>
+                        <div class="previous_next_content_left">
+                            <div class="previous_next_top"><span></span></div>
+                            <div class="previous_next_content_middle_left">
+                                <div class="previous_next_content_middle_right">
+                                    <p class="top_period">(last 30 days)</p>
+                                    <ol>
+            
+                                        <li>
+                                            <a href="/members/vinz.aspx">vinz</a>
+                                            (268) 
+                                            
+                                        </li>
+            
+                                        <li>
+                                            <a href="/members/anas.aspx">anas</a>
+                                            (237) 
+                                            
+                                        </li>
+            
+                                        <li>
+                                            <a href="/members/johram.aspx">johram</a>
+                                            (199) 
+                                            
+                                        </li>
+            
+                                        <li>
+                                            <a href="/members/Jeev.aspx">Jeev</a>
+                                            (177) 
+                                            
+                                        </li>
+            
+                                        <li>
+                                            <a href="/members/kamii47.aspx">kamii47</a>
+                                            (175) 
+                                            
+                                        </li>
+            
+                                        <li>
+                                            <a href="/members/ecbruck.aspx">ecbruck</a>
+                                            (159) 
+                                            <img src="/Themes/FAN/images/mvp.gif" width="25" height="12" alt="MVP" border="0" align="absbottom" />
+                                        </li>
+            
+                                        <li>
+                                            <a href="/members/ramblor.aspx">ramblor</a>
+                                            (150) 
+                                            
+                                        </li>
+            
+                                        <li>
+                                            <a href="/members/XIII.aspx">XIII</a>
+                                            (140) 
+                                            <img src="/Themes/FAN/images/mvp.gif" width="25" height="12" alt="MVP" border="0" align="absbottom" />
+                                        </li>
+            
+                                        <li>
+                                            <a href="/members/SGWellens.aspx">SGWellens</a>
+                                            (100) 
+                                            <img src="/Themes/FAN/images/mvp.gif" width="25" height="12" alt="MVP" border="0" align="absbottom" />
+                                        </li>
+            
+                                        <li>
+                                            <a href="/members/Mikesdotnetting.aspx">Mikesdotnetting</a>
+                                            (97) 
+                                            <img src="/Themes/FAN/images/mvp.gif" width="25" height="12" alt="MVP" border="0" align="absbottom" />
+                                        </li>
+            
+                                    </ol>
+                                    <p class="more"><a href="/0/0/TopAnswerers.aspx">more ...</a></p>
+                                </div>
+                            </div>
+                            <div class="previous_next_bottom"><span></span></div>                            
+                        </div>
+                    </div>
+                </div>
+                <div style="clear: both"></div>                
+            
+	    
+        <div class="heading_container"><div class="heading_right_top"></div><h2 id="BookModule1">Recommended Books</h2></div><div class="bucket_container"><div class="bucket_top"><span></span></div><div class="bucket_content region_absminheight"><div class="clear"></div><p class="minheight_70"><img class="thumbnail_59 align_right" src="http://static.asp.net/asp.net/images/people/joe-stagner.jpg" alt="Joe Stagner" /><br />Microsoft&rsquo;s Joe Stagner recommends the following books on ASP.NET.</p><div class="category_item_book">
+                <p class="image"><a href="http://www.amazon.com/gp/product/1933988169?ie=UTF8&tag=aspnettelligent-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1933988169"><img src="http://www.assoc-amazon.com/e/ir?t=aspnettelligent-20&l=as2&o=1&a=1933988169" class="hidden" alt="" /><img src="http://static.asp.net/asp.net/images/books/book179.jpg" alt=""></a></p><p><a href="http://www.amazon.com/gp/product/1933988169?ie=UTF8&tag=aspnettelligent-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1933988169">LINQ in Action</a><br />by Fabrice Marguerie, Steve Eichert, Jim Wooley</p>
+                <div class="clear"></div></div><div class="category_item_book">
+                <p class="image"><a href="http://www.amazon.com/gp/product/0596510500?ie=UTF8&tag=aspnettelligent-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0596510500"><img src="http://www.assoc-amazon.com/e/ir?t=aspnettelligent-20&l=as2&o=1&a=0596510500" class="hidden" alt="" /><img src="http://static.asp.net/asp.net/images/books/book171.jpg" alt=""></a></p><p><a href="http://www.amazon.com/gp/product/0596510500?ie=UTF8&tag=aspnettelligent-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0596510500">Building a Web 2.0 Portal with ASP.NET 3.5</a><br />by Omar AL Zabir</p>
+                <div class="clear"></div></div><div class="category_item_book">
+                <p class="image"><a href="http://www.amazon.com/gp/product/0672330113?ie=UTF8&tag=aspnettelligent-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0672330113"><img src="http://www.assoc-amazon.com/e/ir?t=aspnettelligent-20&l=as2&o=1&a=0672330113" class="hidden" alt="" /><img src="http://static.asp.net/asp.net/images/books/book170.jpg" alt=""></a></p><p><a href="http://www.amazon.com/gp/product/0672330113?ie=UTF8&tag=aspnettelligent-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0672330113">ASP.NET 3.5 Unleashed</a><br />by Stephen Walther</p>
+                <div class="clear"></div></div><p class="more">»&nbsp; <a href="http://www.asp.net/community/books/">More Books</a></p><div class="clear"></div></div><div class="bucket_bottom"><span></span></div></div><br />	    
+
+	    
+                <div class="previous_next_community_blank">   
+                    <div class="previous_next_community">
+                    <h2>Top Microsoft Answerers</h2>
+                        <div class="previous_next_content_left">
+                            <div class="previous_next_top"><span></span></div>
+                            <div class="previous_next_content_middle_left">
+                                <div class="previous_next_content_middle_right">
+                                    <p class="top_period">(last 30 days)</p>
+                                    <ol>
+            
+			                            <li>
+                   	                        <a href="/members/Samu-Zhang-_2D00_-MSFT.aspx">Samu Zhang - MSFT</a>
+                   	                        (241) 
+				                        </li>
+            
+			                            <li>
+                   	                        <a href="/members/Vince-Xu-_2D00_-MSFT.aspx">Vince Xu - MSFT</a>
+                   	                        (203) 
+				                        </li>
+            
+			                            <li>
+                   	                        <a href="/members/Jonathan-Shen-_1320_-MSFT.aspx">Jonathan Shen – MSFT</a>
+                   	                        (189) 
+				                        </li>
+            
+			                            <li>
+                   	                        <a href="/members/Qin-Dian-Tang-_2D00_-MSFT.aspx">Qin Dian Tang - MSFT</a>
+                   	                        (182) 
+				                        </li>
+            
+			                            <li>
+                   	                        <a href="/members/Thomas-Sun-_1320_-MSFT.aspx">Thomas Sun – MSFT</a>
+                   	                        (148) 
+				                        </li>
+            
+			                            <li>
+                   	                        <a href="/members/XiaoYong-Dai-_1320_-MSFT.aspx">XiaoYong Dai – MSFT</a>
+                   	                        (144) 
+				                        </li>
+            
+			                            <li>
+                   	                        <a href="/members/Amanda-Wang-_2D00_-MSFT.aspx">Amanda Wang - MSFT</a>
+                   	                        (99) 
+				                        </li>
+            
+			                            <li>
+                   	                        <a href="/members/Ivan-Xin-_2D00_-MSFT.aspx">Ivan Xin - MSFT</a>
+                   	                        (96) 
+				                        </li>
+            
+			                            <li>
+                   	                        <a href="/members/Hua_2D00_Jun-Li-_2D00_-MSFT.aspx">Hua-Jun Li - MSFT</a>
+                   	                        (91) 
+				                        </li>
+            
+			                            <li>
+                   	                        <a href="/members/Jin_2D00_Yu-Yin-_2D00_-MSFT.aspx">Jin-Yu Yin - MSFT</a>
+                   	                        (85) 
+				                        </li>
+            
+                                    </ol>
+                                    <p class="more"><a href="/0/0/TopAnswerersMS.aspx">more ...</a></p>
+                                </div>
+                            </div>
+                            <div class="previous_next_bottom"><span></span></div>                            
+                        </div>
+                    </div>
+                </div>
+                <div style="clear: both"></div>                
+            
+	    	
+	    
+            	                	    
+        		
+    
+
+		        </div>
+		        
+		        <div id="CommonSidebarLeft">
+			        
+			    </div>
+		        
+		        <div id="CommonContent">
+		            <div id="CommonContentInner">
+		                
+    
+<div class="CommonContentArea">
+	<div class="CommonContent">
+	
+        
+	
+    	 
+        
+                <div class="CommonListArea">
+			        <div id="ctl00_ctl00_bcr_bcr_ctl01_ctl03_ctl00_Header" class="Expanded">
+				            <div class="CommonListTitle">
+				                <div class="CommonListTitleRight"></div>
+				                <h2><a href="/default.aspx?GroupID=7">General ASP.NET</a></h2>
+                                
+                                
+                            </div>
+                            <div class="CommonListTitleBottom"><span></span></div>
+				        </div><div id="ctl00_ctl00_bcr_bcr_ctl01_ctl03_ctl00_Content">
+				            
+							        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#DCE4F9">
+							        <thead>
+								        <tr> 
+									        <th nowrap="nowrap" class="CommonListHeaderLeftMost ForumGroupImageAndNameHeader" align="center">Forums</th>
+									        <th class="CommonListHeader ForumGroupLastPostHeader">Last Post</th>                                    
+									        <th class="CommonListHeader ForumGroupTotalThreadsHeader" align="center">Threads</th>
+								        </tr>
+							        </thead>
+							        <tbody>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/13.aspx">FAQ - Frequently Asked Questions</a>
+								            
+									        <div>Your question has probably already been answered. Look here for some great answers!</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: HOW TO: Format numbers to a string variable" href="/p/1052399/2382095.aspx#2382095">Re: HOW TO: Format...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=803744">vijay.tri2001</a></div>
+                                                    <div>7 hours, 7 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">90</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/15.aspx">Getting Started</a>
+								            
+									        <div>The perfect forum for ASP.NET novices. No question too simple! <A href="http://aspadvice.com/SignUp/list.aspx?l=21&amp;c=17" target=_blank>Email List</A></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: ListBox selection jump?" href="/p/1266627/2383155.aspx#2383155">Re: ListBox selection...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=652214">zoltac007</a></div>
+                                                    <div>13 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">71,929</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/17.aspx">Installation and Setup</a>
+								            
+									        <div>All about installing and getting ASP.NET running on your system.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: How to connect my local database from the hosting web server" href="/p/1263498/2382995.aspx#2382995">Re: How to connect...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=307956">jeff@zina.com</a></div>
+                                                    <div>1 hour, 14 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">4,466</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1127.aspx">ASP.NET Futures</a>
+								            
+									        <div>Use this forum to discuss ASP.NET AJAX Extensions, Dynamic Data Controls, Silverlight Controls for ASP.NET, ASP.NET Dynamic Language Support, and Search and Diagnostics Application Services.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Is IIS 7.0 required for hosting ASP.NET Futures?" href="/p/1203956/2382814.aspx#2382814">Re: Is IIS 7.0 required...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=803825">lincy.chandy</a></div>
+                                                    <div>2 hours, 10 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">274</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/18.aspx">Web Forms</a>
+								            
+									        <div>All about building ASP.NET Pages - server controls, events, validation, etc.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Radio button selection to show other radio buttons for selec" href="/p/1266864/2383156.aspx#2383156">Re: Radio button...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=638499">ecbruck</a></div>
+                                                    <div>13 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">72,428</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/24.aspx">Data Presentation Controls</a>
+								            
+									        <div>ASP.NET data-bound controls such as the DataGrid, DataList, GridView, FormView, DetailsView, and Repeater Controls.  <a href="http://aspadvice.com/SignUp/list.aspx?l=23&c=17" target="_blank">Email List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a href="/p/1266876/2383146.aspx#2383146">Re: Datalist Question</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=638499">ecbruck</a></div>
+                                                    <div>19 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">55,922</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/139.aspx">Master Pages, Themes and Navigation Controls</a>
+								            
+									        <div>Discussions of MasterPages, Themes, and other page-related features. <A href="http://aspadvice.com/SignUp/list.aspx?l=164&amp;c=30" target=_blank>Email List</A></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a href="/p/1266520/2383153.aspx#2383153">Re: Back to Basics</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=632764">whitegreg</a></div>
+                                                    <div>14 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">9,982</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/145.aspx">Web Parts and Personalization</a>
+								            
+									        <div>Discussions of the new ASP.NET 2.0 portal framework.  <a href="http://aspadvice.com/SignUp/list.aspx?l=167&c=30" target="_blank">Email List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Can we use WebParts in diffrent pages for one user" href="/p/1266343/2383038.aspx#2383038">Re: Can we use WebParts...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=763264">vinz</a></div>
+                                                    <div>59 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">2,988</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/25.aspx">Security</a>
+								            
+									        <div>All about ASP.NET security (authentication, authorization, membership, roles, etc.) and the Login controls. <a href="http://aspadvice.com/SignUp/list.aspx?l=24&c=17" target="_blank">Email List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Login Control - CreateNewWizard.aspx" href="/p/1266829/2383126.aspx#2383126">Re: Login Control...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=766757">deepakgoyal86</a></div>
+                                                    <div>27 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">20,882</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/22.aspx">State Management</a>
+								            
+									        <div>Managing ASP.NET state - ViewState, Application, Session, etc. <a href="http://aspadvice.com/SignUp/list.aspx?l=69&c=17" target="_blank">Email List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a href="/p/1266235/2382994.aspx#2382994">Re: Session expired</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=742471">lad.bhavesh</a></div>
+                                                    <div>1 hour, 15 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">6,478</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/130.aspx">Client Side Web Development</a>
+								            
+									        <div>Client-side programming discussions, including CSS, DHTML, JScript/Javascript, etc. <a href="http://aspadvice.com/SignUp/list.aspx?l=18&c=16" target="_blank">Email List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: How to enable, disable or change ControlToValidate propertie" href="/p/1265761/2383149.aspx#2383149">Re: How to enable...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=802597">wand</a></div>
+                                                    <div>17 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">17,661</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1147.aspx">ASP.NET 3.5 Extensions Preview</a>
+								            
+									        <div>Setup issues and general questions regarding this release. For specific topics use <a href="http://forums.asp.net/1146.aspx">ASP.NET MVC</a>, <a href="http://forums.asp.net/1154.aspx">ASP.NET Controls for Silverlight</a>, <a href="http://forums.asp.net/1145.aspx">ASP.NET Dynamic Data</a>, <a href="http://go.microsoft.com/fwlink/?linkid=96773">ADO.NET Entity Framework</a>, <a href="http://forums.microsoft.com/MSDN/ShowForum.aspx?ForumID=1430&SiteID=1">ADO.NET Data Services</a> or the <a href="http://forums.asp.net/1008.aspx">ASP.NET AJAX UI</a> forum.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Creating Association between two classes in LINQ" href="/p/1266718/2382252.aspx#2382252">Creating Association...</a>
+                                                    <div>by <a title="a_anandraj@hotmail.com" href="/user/Profile.aspx?UserID=748969">a_anandraj@hotmail...</a></div>
+                                                    <div>5 hours, 47 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">163</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1146.aspx">ASP.NET MVC</a>
+								            
+									        <div>Discussions regarding Model-View-Controller (MVC) support in ASP.NET.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Is there a problem with MVCToolkit Controls?" href="/p/1266566/2383118.aspx#2383118">Re: Is there a problem...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=793503">JProgrammer</a></div>
+                                                    <div>30 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,106</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1154.aspx">ASP.NET Controls for Silverlight</a>
+								            
+									        <div>Discussions about how to support Silverlight within using the ASP.NET Controls for Silverlight.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a href="/p/1266309/2380315.aspx#2380315">Re: Implement silverlight</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=682114">anas</a></div>
+                                                    <div>05-26-2008, 5:18 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">34</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/26.aspx">Configuration and Deployment</a>
+								            
+									        <div>Configuring and deploying ASP.NET applications - web.config, \bin, etc.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Finishing a forum as a component" href="/p/1266874/2383115.aspx#2383115">Finishing a forum...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=720029">TheEagle</a></div>
+                                                    <div>31 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">9,029</td>
+							        </tr>
+						        
+							        </tbody>
+							        </table>				
+						        
+				        </div>
+			    </div>
+            
+  		        
+
+<div align="center" style="padding-top:5px;padding-bottom:5px;">
+<iframe src="/a/Banner.htm" width="468" height="60" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+</div>
+            
+                <div class="CommonListArea">
+			        <div id="ctl00_ctl00_bcr_bcr_ctl01_ctl05_ctl00_Header" class="Expanded">
+				            <div class="CommonListTitle">
+				                <div class="CommonListTitleRight"></div>
+				                <h2><a href="/default.aspx?GroupID=34">ASP.NET AJAX</a></h2>
+                                
+                                
+                            </div>
+                            <div class="CommonListTitleBottom"><span></span></div>
+				        </div><div id="ctl00_ctl00_bcr_bcr_ctl01_ctl05_ctl00_Content">
+				            
+							        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#DCE4F9">
+							        <thead>
+								        <tr> 
+									        <th nowrap="nowrap" class="CommonListHeaderLeftMost ForumGroupImageAndNameHeader" align="center">Forums</th>
+									        <th class="CommonListHeader ForumGroupLastPostHeader">Last Post</th>                                    
+									        <th class="CommonListHeader ForumGroupTotalThreadsHeader" align="center">Threads</th>
+								        </tr>
+							        </thead>
+							        <tbody>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1007.aspx">ASP.NET AJAX Discussion and Suggestions</a>
+								            
+									        <div>This forum is the place for ASP.NET AJAX 'getting started' questions, general questions that don't fit in one of the other forums about AJAX </div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Http1.1/100 continue" href="/p/1266865/2383125.aspx#2383125">Re: Http1.1/100...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=793635">ksrao720@yahoo.com</a></div>
+                                                    <div>27 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">10,794</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1008.aspx">ASP.NET AJAX UI</a>
+								            
+									        <div>Here you can discuss UI-related issues with AJAX such as controls and client-side functionality including Silverlight controls for ASP.NET</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Validators not working with Update Panel" href="/p/1266812/2382835.aspx#2382835">Re: Validators not...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=790517">Pawan_Mishra</a></div>
+                                                    <div>2 hours, 0 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">7,869</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1009.aspx">ASP.NET AJAX Networking and Web Services</a>
+								            
+									        <div>Discuss your issues with the client and server interaction in AJAX using web services and other transports used by AJAX</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Sys.Net.WebServiceProxy.invoke method causes full page reloa" href="/p/1249194/2383138.aspx#2383138">Re: Sys.Net.WebService......</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=740953">zjzzjc</a></div>
+                                                    <div>21 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,568</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1022.aspx">ASP.NET AJAX Control Toolkit</a>
+								            
+									        <div>Here's your place to discuss everything in and about the AJAX Control Toolkit</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Values from AJAX Popup Extender" href="/p/1264406/2383087.aspx#2383087">Re: Values from...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=802345">boozie09</a></div>
+                                                    <div>41 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">12,692</td>
+							        </tr>
+						        
+							        </tbody>
+							        </table>				
+						        
+				        </div>
+			    </div>
+            
+                <div class="CommonListArea">
+			        <div id="ctl00_ctl00_bcr_bcr_ctl01_ctl07_ctl00_Header" class="Expanded">
+				            <div class="CommonListTitle">
+				                <div class="CommonListTitleRight"></div>
+				                <h2><a href="/default.aspx?GroupID=35">Visual Studio</a></h2>
+                                
+                                
+                            </div>
+                            <div class="CommonListTitleBottom"><span></span></div>
+				        </div><div id="ctl00_ctl00_bcr_bcr_ctl01_ctl07_ctl00_Content">
+				            
+							        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#DCE4F9">
+							        <thead>
+								        <tr> 
+									        <th nowrap="nowrap" class="CommonListHeaderLeftMost ForumGroupImageAndNameHeader" align="center">Forums</th>
+									        <th class="CommonListHeader ForumGroupLastPostHeader">Last Post</th>                                    
+									        <th class="CommonListHeader ForumGroupTotalThreadsHeader" align="center">Threads</th>
+								        </tr>
+							        </thead>
+							        <tbody>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1112.aspx">Visual Studio 2008</a>
+								            
+									        <div>General discussions about Visual Studio 2008</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: convert from VS2003 to VS2008: OracleClient does not exist" href="/p/1266870/2383150.aspx#2383150">Re: convert from...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=765609">newbieAl</a></div>
+                                                    <div>16 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,460</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1125.aspx">Visual Web Developer 2008 Express</a>
+								            
+									        <div>General discussions about Visual Web Developer 2008 Express Edition</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: WTB a friendlier user interface." href="/p/1266404/2381608.aspx#2381608">Re: WTB a friendlier...</a>
+                                                    <div>by <a title="Mikhail Arkhipov (MSFT)" href="/user/Profile.aspx?UserID=83513">Mikhail Arkhipov...</a></div>
+                                                    <div>13 hours, 13 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">590</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/138.aspx">Visual Studio 2005</a>
+								            
+									        <div>General discussions of Visual Studio 2005.  <a href="http://aspadvice.com/SignUp/list.aspx?l=162&c=30" target="_blank">Email List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Initial Visual Studio Environment choices for Team Ed. for A" href="/p/1223286/2383010.aspx#2383010">Re: Initial Visual...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=643421">saintperez</a></div>
+                                                    <div>1 hour, 9 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">6,674</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/175.aspx">Visual Web Developer 2005 Express</a>
+								            
+									        <div>General discussions about Visual Web Developer 2005 Express Edition</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="TreeView, Database,Table" href="/p/1266654/2381903.aspx#2381903">TreeView, Database...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=803727">Kannan12</a></div>
+                                                    <div>8 hours, 37 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">3,630</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/33.aspx">Visual Studio .NET 2003 and Visual Studio .NET 2002</a>
+								            
+									        <div>Discuss using Visual Studio .NET 2003 and/or Visual Studio .NET 2002 for building ASP.NET solutions. <a href="http://aspadvice.com/SignUp/list.aspx?l=65&c=11" target="_blank">Email List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: How I can resize my webform?" href="/p/1266413/2382561.aspx#2382561">Re: How I can resize...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=750975">elegantkvc</a></div>
+                                                    <div>3 hours, 50 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">3,550</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1012.aspx">Migrating from Visual Studio .NET 2003 to Visual Studio 2005 </a>
+								            
+									        <div>Discuss issues, strategies, tips, etc. for migrating from Visual Studio .NET 2003 to Visual Studio 2005</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: what is the difference between Framework 2.0 and Framework 1" href="/p/1115522/2376834.aspx#2376834">Re: what is the...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=801292">Nitin Bansal</a></div>
+                                                    <div>05-23-2008, 9:58 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">547</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1019.aspx">VS 2005 Web Application Projects</a>
+								            
+									        <div>General discussions of VS 2005 Web Application Projects</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: The proxy settings on this computer are not configured corre" href="/p/1261961/2382782.aspx#2382782">Re: The proxy settings...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=761547">eastw</a></div>
+                                                    <div>2 hours, 18 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,085</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1020.aspx">VS Web Deployment Projects</a>
+								            
+									        <div>General discussions of VS Web Deployment Projects</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Web.config Replacement File for &lt;system.serviceModel>" href="/p/1189124/2382960.aspx#2382960">Re: Web.config Replacement...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=358259">Super_Julius</a></div>
+                                                    <div>1 hour, 25 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">606</td>
+							        </tr>
+						        
+							        </tbody>
+							        </table>				
+						        
+				        </div>
+			    </div>
+            
+  		        
+
+<div align="center" style="padding-top:5px;padding-bottom:5px;">
+<iframe src="/a/Banner.htm" width="468" height="60" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+</div>
+            
+                <div class="CommonListArea">
+			        <div id="ctl00_ctl00_bcr_bcr_ctl01_ctl09_ctl00_Header" class="Expanded">
+				            <div class="CommonListTitle">
+				                <div class="CommonListTitleRight"></div>
+				                <h2><a href="/default.aspx?GroupID=16">Data Access</a></h2>
+                                
+                                
+                            </div>
+                            <div class="CommonListTitleBottom"><span></span></div>
+				        </div><div id="ctl00_ctl00_bcr_bcr_ctl01_ctl09_ctl00_Content">
+				            
+							        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#DCE4F9">
+							        <thead>
+								        <tr> 
+									        <th nowrap="nowrap" class="CommonListHeaderLeftMost ForumGroupImageAndNameHeader" align="center">Forums</th>
+									        <th class="CommonListHeader ForumGroupLastPostHeader">Last Post</th>                                    
+									        <th class="CommonListHeader ForumGroupTotalThreadsHeader" align="center">Threads</th>
+								        </tr>
+							        </thead>
+							        <tbody>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/23.aspx">Data Access and ObjectDataSource Control</a>
+								            
+									        <div>Questions and discussions related to using ADO.NET for data access, and the ObjectDataSource control. <a href="http://aspadvice.com/SignUp/list.aspx?l=9&c=17" target="_blank">Email List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: [LINQ2SQL] How can i make an primarykey autoincremental?" href="/p/1266565/2383091.aspx#2383091">Re: [LINQ2SQL] How...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=793503">JProgrammer</a></div>
+                                                    <div>39 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">12,804</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/54.aspx">SQL Server, SQL Server Express, and SqlDataSource Control</a>
+								            
+									        <div>All about SQL Server, SQL Server Express, MSDE, and the SqlDataSource control.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a href="/p/1266869/2383116.aspx#2383116">Re: asp:SessionParamet...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=638499">ecbruck</a></div>
+                                                    <div>30 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">22,155</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/55.aspx">Access Databases and AccessDataSource Control</a>
+								            
+									        <div>Discuss using Access as a data store for ASP.NET, and the AccessDataSource control.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: display user details from a access database based on the asp" href="/p/1242173/2383011.aspx#2383011">Re: display user...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=792671">misbahmurtza</a></div>
+                                                    <div>1 hour, 9 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">3,997</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/43.aspx">XML and XmlDataSource Control</a>
+								            
+									        <div>All about XML, XSLT, and the XmlDataSource control.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a href="/p/1266871/2383107.aspx#2383107">Re: &amp; in XML</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=701576">DigiMortal</a></div>
+                                                    <div>33 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">5,843</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/28.aspx">XML Web Services</a>
+								            
+									        <div>All about building XML Web Services with ASP.NET - SOAP, WSDL, etc. <a href="http://aspadvice.com/SignUp/list.aspx?l=66&c=17" target="_blank">Email List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Passing a dataset via web service without refering to comple" href="/p/1266685/2383050.aspx#2383050">Re: Passing a dataset...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=789294">freesoftware</a></div>
+                                                    <div>53 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">5,524</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/57.aspx">Oracle</a>
+								            
+									        <div>All about using Oracle as a data store for ASP.NET.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: ORA-12170 when trying to login ASP .net app" href="/p/1265706/2383101.aspx#2383101">Re: ORA-12170 when...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=765609">newbieAl</a></div>
+                                                    <div>34 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,825</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/56.aspx">MySQL</a>
+								            
+									        <div>Discuss using MySQL as a data store for ASP.NET.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: primary key for datatable" href="/p/1266395/2381343.aspx#2381343">Re: primary key...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=780001">r_nassabeh</a></div>
+                                                    <div>19 hours, 15 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,507</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/85.aspx">Other Databases</a>
+								            
+									        <div>Discuss using Sybase, Informix, and other database products (not having their own forum) as data stores for ASP.NET.  </div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: @variable DB2 VWD" href="/p/1266803/2383012.aspx#2383012">Re: @variable DB2...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=652982">mondo21</a></div>
+                                                    <div>1 hour, 8 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">674</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/93.aspx">Active Directory and LDAP</a>
+								            
+									        <div>Questions about Active Directory and other directory stores, such as those accessible via LDAP, are appropriate here.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Property[&quot;&quot;] problem - managing AD Users with shar" href="/p/1266003/2382281.aspx#2382281">Re: Property[&quot;&qu......</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=758593">ereko</a></div>
+                                                    <div>5 hours, 37 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,872</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1076.aspx">Blinq Preview</a>
+								            
+									        <div>Blinq is a tool for generating ASP.NET websites for displaying, creating, and manipulating data based on database schema.  You can provide feedback and ask questions about the Blinq preview in this forum.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: ContextData not showing when configuring linqdatasource for " href="/p/1214222/2352713.aspx#2352713">Re: ContextData...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=683319">chenriks</a></div>
+                                                    <div>05-12-2008, 1:25 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">217</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1145.aspx">ASP.NET Dynamic Data</a>
+								            
+									        <div>Discussions regarding the new scaffolding framework in ASP.NET</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Range validator in Dynamic Data pages" href="/p/1266716/2382235.aspx#2382235">Range validator...</a>
+                                                    <div>by <a title="aja.borges@hotmail.com" href="/user/Profile.aspx?UserID=803224">aja.borges@hotmail...</a></div>
+                                                    <div>5 hours, 55 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">272</td>
+							        </tr>
+						        
+							        </tbody>
+							        </table>				
+						        
+				        </div>
+			    </div>
+            
+                <div class="CommonListArea">
+			        <div id="ctl00_ctl00_bcr_bcr_ctl01_ctl11_ctl00_Header" class="Expanded">
+				            <div class="CommonListTitle">
+				                <div class="CommonListTitleRight"></div>
+				                <h2><a href="/default.aspx?GroupID=10">Advanced ASP.NET</a></h2>
+                                
+                                
+                            </div>
+                            <div class="CommonListTitleBottom"><span></span></div>
+				        </div><div id="ctl00_ctl00_bcr_bcr_ctl01_ctl11_ctl00_Content">
+				            
+							        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#DCE4F9">
+							        <thead>
+								        <tr> 
+									        <th nowrap="nowrap" class="CommonListHeaderLeftMost ForumGroupImageAndNameHeader" align="center">Forums</th>
+									        <th class="CommonListHeader ForumGroupLastPostHeader">Last Post</th>                                    
+									        <th class="CommonListHeader ForumGroupTotalThreadsHeader" align="center">Threads</th>
+								        </tr>
+							        </thead>
+							        <tbody>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/16.aspx">Architecture</a>
+								            
+									        <div>Discuss and debate ASP.NET application designs. <a href="http://aspadvice.com/SignUp/list.aspx?l=8&c=17" target="_blank">Email List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: How to keep &quot;Watch This Item&quot; ads connected to use" href="/p/1266410/2382987.aspx#2382987">Re: How to keep...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=803639">snehal0909</a></div>
+                                                    <div>1 hour, 18 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">4,783</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/27.aspx">HttpHandlers and HttpModules</a>
+								            
+									        <div>Extending the ASP.NET Framework through HttpModules and HttpHandlers.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Newbie HttpModule error" href="/p/1266290/2382836.aspx#2382836">Re: Newbie HttpModule...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=470375">andmattia</a></div>
+                                                    <div>2 hours, 0 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,637</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/19.aspx">Custom Server Controls</a>
+								            
+									        <div>All about building ASP.NET server controls. <a href="http://aspadvice.com/SignUp/list.aspx?l=12&c=17" target="_blank">Email List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: CreateChildControls sub" href="/p/1266639/2383083.aspx#2383083">Re: CreateChildControl......</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=802002">ihsany</a></div>
+                                                    <div>42 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">2,688</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/151.aspx">Localization</a>
+								            
+									        <div>Discuss techniques for localizing content for different languages and locales with ASP.NET.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: bi-lingual dynamic text" href="/p/1266744/2383061.aspx#2383061">Re: bi-lingual dynamic...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=698016">murthysrn</a></div>
+                                                    <div>50 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,732</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/46.aspx">Enterprise Services  Integration</a>
+								            
+									        <div>Integrating Enterprise Services including Office, OWC, BizTalk, MSMQ, COM+, etc.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="using .net assembly from asp page" href="/p/1266808/2382745.aspx#2382745">using .net assembly...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=803692">Nami2007</a></div>
+                                                    <div>2 hours, 37 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,459</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/150.aspx">System.Drawing/GDI+</a>
+								            
+									        <div>Discuss manipulating and creating graphics using the System.Drawing namespace and GDI+.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Image Cropping in ASP.NET 2.0  ..." href="/p/1266747/2382469.aspx#2382469">Re: Image Cropping...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=24607">XIII</a></div>
+                                                    <div>4 hours, 21 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,506</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/48.aspx">Mobile and Handheld Devices</a>
+								            
+									        <div>Target mobile and handheld devices with ASP.NET - cell phones, blackberry, PDA, etc.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Mobile Websites in ASP.NET?" href="/p/1265895/2382397.aspx#2382397">Re: Mobile Websites...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=792963">prashant11</a></div>
+                                                    <div>4 hours, 48 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">2,524</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/191.aspx">SQL Server Reporting Services</a>
+								            
+									        <div>Anything and everything pertaining to SQL Server Reporting Services.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Can't export page total value on the footer to PDF" href="/p/1266622/2382830.aspx#2382830">Re: Can't export...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=722959">shrainpatel</a></div>
+                                                    <div>2 hours, 2 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">3,029</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/76.aspx">Crystal Reports</a>
+								            
+									        <div>Questions and discussions about Crystal Reports.  <a target="_blank" href="http://aspadvice.com/SignUp/list.aspx?l=181&c=11">Mailing List</a> <a href="http://www.businessobjects.com/devzone/009">Dev Zone</a> <a href="http://aspalliance.com/crystal/">Community</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Problem with Reoprt footer -- Need Help" href="/p/1265587/2383154.aspx#2383154">Re: Problem with...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=796802">RaghaSM</a></div>
+                                                    <div>14 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">5,668</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/14.aspx">Feature Requests</a>
+								            
+									        <div>Discuss features that you would like to see in future versions of ASP.NET.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a href="/p/1137235/2381560.aspx#2381560">Re: FileUpload</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=659959">pure.krome</a></div>
+                                                    <div>14 hours, 36 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">239</td>
+							        </tr>
+						        
+							        </tbody>
+							        </table>				
+						        
+				        </div>
+			    </div>
+            
+  		        
+
+<div align="center" style="padding-top:5px;padding-bottom:5px;">
+<iframe src="/a/Banner.htm" width="468" height="60" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+</div>
+            
+                <div class="CommonListArea">
+			        <div id="ctl00_ctl00_bcr_bcr_ctl01_ctl13_ctl00_Header" class="Expanded">
+				            <div class="CommonListTitle">
+				                <div class="CommonListTitleRight"></div>
+				                <h2><a href="/default.aspx?GroupID=12">Migration to ASP.NET</a></h2>
+                                
+                                
+                            </div>
+                            <div class="CommonListTitleBottom"><span></span></div>
+				        </div><div id="ctl00_ctl00_bcr_bcr_ctl01_ctl13_ctl00_Content">
+				            
+							        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#DCE4F9">
+							        <thead>
+								        <tr> 
+									        <th nowrap="nowrap" class="CommonListHeaderLeftMost ForumGroupImageAndNameHeader" align="center">Forums</th>
+									        <th class="CommonListHeader ForumGroupLastPostHeader">Last Post</th>                                    
+									        <th class="CommonListHeader ForumGroupTotalThreadsHeader" align="center">Threads</th>
+								        </tr>
+							        </thead>
+							        <tbody>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/180.aspx">Migrating from ASP.NET 1.x to ASP.NET 2.0</a>
+								            
+									        <div>Discuss issues about compatibility with and migration from previous versions of ASP.NET.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: &quot; is not a valid Win32 application. (Exception from HRE" href="/p/983377/2375172.aspx#2375172">Re: &quot; is not...</a>
+                                                    <div>by <a title="david@davidlwalker.com" href="/user/Profile.aspx?UserID=637325">david@davidlwalker...</a></div>
+                                                    <div>05-22-2008, 4:37 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">933</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/29.aspx">Migrating from ASP to ASP.NET</a>
+								            
+									        <div>Discuss moving from classic ASP to ASP.NET. </div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Help ! ...VBscript runtime (0x800A01B6) object doesn't support t" href="/p/1266751/2382433.aspx#2382433">Help ! ...VBscript...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=803692">Nami2007</a></div>
+                                                    <div>4 hours, 32 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">749</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/44.aspx">Migrating from PHP to ASP.NET</a>
+								            
+									        <div>Discuss moving from PHP to ASP.NET.</div>
+									        <b>Subforum(s) </b><a href="/133.aspx">PHP to ASP.NET Migration Assistant Alpha</a>
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Easy way to convert PHP to ASP.Net?" href="/p/1262190/2365294.aspx#2365294">Re: Easy way to...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=700752">Zhao Ji Ma - MSFT</a></div>
+                                                    <div>05-19-2008, 2:58 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">264</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/45.aspx">Migrating from JSP/Servlets to ASP.NET</a>
+								            
+									        <div>Discuss moving from JSP/Servlets to ASP.NET.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a href="/p/1266756/2382442.aspx#2382442">ASP.NET - JAVA Bridge</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=803798">cubee</a></div>
+                                                    <div>4 hours, 30 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">61</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/49.aspx">Migrating from Cold Fusion to ASP.NET</a>
+								            
+									        <div>Discuss moving from Cold Fusion to ASP.NET.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Decrypting passwords encrypted using Cold Fusion Encrypt" href="/p/222886/2375237.aspx#2375237">Re: Decrypting passwords...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=803115">fairfaxva</a></div>
+                                                    <div>05-22-2008, 5:07 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">72</td>
+							        </tr>
+						        
+							        </tbody>
+							        </table>				
+						        
+				        </div>
+			    </div>
+            
+                <div class="CommonListArea">
+			        <div id="ctl00_ctl00_bcr_bcr_ctl01_ctl15_ctl00_Header" class="Expanded">
+				            <div class="CommonListTitle">
+				                <div class="CommonListTitleRight"></div>
+				                <h2><a href="/default.aspx?GroupID=2">Starter Kits and Source Projects</a></h2>
+                                
+                                
+                            </div>
+                            <div class="CommonListTitleBottom"><span></span></div>
+				        </div><div id="ctl00_ctl00_bcr_bcr_ctl01_ctl15_ctl00_Content">
+				            
+							        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#DCE4F9">
+							        <thead>
+								        <tr> 
+									        <th nowrap="nowrap" class="CommonListHeaderLeftMost ForumGroupImageAndNameHeader" align="center">Forums</th>
+									        <th class="CommonListHeader ForumGroupLastPostHeader">Last Post</th>                                    
+									        <th class="CommonListHeader ForumGroupTotalThreadsHeader" align="center">Threads</th>
+								        </tr>
+							        </thead>
+							        <tbody>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1003.aspx">Personal Site Starter Kit</a>
+								            
+									        <div>Discussions about the Personal Site Starter Kit for ASP.NET 2.0.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a href="/p/1263686/2373851.aspx#2373851">Re: locked</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=24607">XIII</a></div>
+                                                    <div>05-22-2008, 8:15 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,149</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1004.aspx">Club Web Site Starter Kit</a>
+								            
+									        <div>Discussions about Microsoft's Club Web Site Starter Kit for ASP.NET 2.0.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a href="/p/932484/2381581.aspx#2381581">Re: GoDaddy</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=702219">phamster</a></div>
+                                                    <div>14 hours, 0 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,117</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1005.aspx">Time Tracker Starter Kit</a>
+								            
+									        <div>Discussions about the Time Tracker Starter Kit for ASP.NET 2.0.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Error in Database connection" href="/p/1266780/2382714.aspx#2382714">Re: Error in Database...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=698016">murthysrn</a></div>
+                                                    <div>2 hours, 48 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">351</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1092.aspx">Small Business Starter Kit</a>
+								            
+									        <div>Discussions about the Small Business Starter Kit for ASP.NET 2.0.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: add columns/fields to db" href="/p/1265252/2377494.aspx#2377494">Re: add columns...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=798933">tonian</a></div>
+                                                    <div>05-23-2008, 2:16 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">209</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1013.aspx">Jobs Site Starter Kit</a>
+								            
+									        <div>This forum is for help and suggestions about the community-supported Jobs Site Starter Kit for ASP.NET 2.0.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a href="/p/1058583/2342930.aspx#2342930">Re: Namespace error</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=800034">sameeralibhai</a></div>
+                                                    <div>05-07-2008, 8:41 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">63</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1021.aspx">Classifieds Starter Kit</a>
+								            
+									        <div>Discussions about and feedback on the Classifieds Starter Kit for ASP.NET 2.0.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Adjusting Search Term Text Box Parameters" href="/p/1266810/2382748.aspx#2382748">Adjusting Search...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=757381">roymartian</a></div>
+                                                    <div>2 hours, 36 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">734</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1115.aspx">TheBeerHouse Starter Kit</a>
+								            
+									        <div>Discussions about TheBeerHouse Starter Kit for ASP.NET 2.0</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Why the poll statistical bars do not print?" href="/p/1266435/2381109.aspx#2381109">Re: Why the poll...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=643242">Annddrew</a></div>
+                                                    <div>22 hours, 54 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">135</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/155.aspx">Issue Tracker Starter Kit</a>
+								            
+									        <div>Discussions about the Issue Tracker Starter Kit for ASP.NET 1.x.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: issue tracker for ASP.NET 2.0" href="/p/1076466/2374579.aspx#2374579">Re: issue tracker...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=802367">sandeepchowla</a></div>
+                                                    <div>05-22-2008, 12:19 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">714</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/88.aspx">Community Starter Kit</a>
+								            
+									        <div>Discuss the Community Starter Kit for ASP.NET 1.x.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Where to download Community Starter Kit" href="/p/1218789/2312102.aspx#2312102">Re: Where to download...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=699054">pulla_paparao</a></div>
+                                                    <div>04-21-2008, 8:35 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">2,042</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/87.aspx">Portal Starter Kit</a>
+								            
+									        <div>Discuss the Commerce Starter Kit (formerly the IBuySpy Store) for ASP.NET 1.x.</div>
+									        <b>Subforum(s) </b><a href="/2.aspx">IBuySpy Portal</a>
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: 'SiteConfiguration' could not be found compile error" href="/p/314333/2339194.aspx#2339194">Re: 'SiteConfiguration...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=675156">javafun</a></div>
+                                                    <div>05-05-2008, 9:47 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">2,192</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/84.aspx">Commerce Starter Kit</a>
+								            
+									        <div>Discuss the Commerce Starter Kit Installation Package and Source Code for ASP.NET 1.x.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a href="/p/1264103/2370489.aspx#2370489">Re: Website</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=617842">david wendelken</a></div>
+                                                    <div>05-21-2008, 4:17 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,157</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/82.aspx">Reports Starter Kit</a>
+								            
+									        <div>Discuss the Reports Starter Kit for ASP.NET 1.x.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: crystal report probs" href="/p/1123271/2381497.aspx#2381497">Re: crystal report...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=803703">Waterlooloo</a></div>
+                                                    <div>16 hours, 32 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">225</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/122.aspx">Microsoft Application Blocks</a>
+								            
+									        <div>Discuss the various Patterns & Practices Application Blocks for ASP.NET 1.x.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="How to use EL 4.0 to log data in Oracle Database" href="/p/1266828/2382889.aspx#2382889">How to use EL 4...</a>
+                                                    <div>by <a title="mohit_mohan@infosys.com" href="/user/Profile.aspx?UserID=783256">mohit_mohan@infosys...</a></div>
+                                                    <div>1 hour, 45 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">910</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/81.aspx">Time Tracker Starter Kit (ASP.NET 1.x)</a>
+								            
+									        <div>Discuss the Time Tracker Starter Kit for ASP.NET 1.x.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: CS0007: Unexpected common language runtime initialization er" href="/p/451250/2362480.aspx#2362480">Re: CS0007: Unexpected...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=277139">kartooz2000</a></div>
+                                                    <div>05-16-2008, 10:13 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">582</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="http://www.dotnetnuke.com/tabid/795/Default.aspx">DotNetNuke</a>
+								            
+									        <div>Discussions of DotNetNuke for ASP.NET 1.x and above.  <a href="http://www.dotnetnuke.com/" target="_blank">DNN Home</a> <a href="http://aspadvice.com/SignUp/list.aspx?l=105&c=25" target="_blank">Email List</a></div>
+									        <b>Subforum(s) </b><a href="http://www.dotnetnuke.com/tabid/795/Default.aspx">Core Framework</a>, <a href="http://www.dotnetnuke.com/tabid/795/Default.aspx">Custom Modules</a>, <a href="http://www.dotnetnuke.com/tabid/795/Default.aspx">Getting Started</a>, <a href="http://www.dotnetnuke.com/tabid/795/Default.aspx">Resources</a>
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="In Class library : how to use webcontrol.aspxand ascx.cs" href="/p/1257763/2342487.aspx#2342487">In Class library...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=799987">soona</a></div>
+                                                    <div>05-23-2008, 12:36 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">37,126</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/102.aspx">Rainbow Portal</a>
+								            
+									        <div>Discuss the Rainbow Portal Project for ASP.NET 1.x and above.  <a href="http://www.rainbowportal.org/" target="_blank">Rainbow Home</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Making a tool that creates E-learning system" href="/p/1260124/2353096.aspx#2353096">Making a tool that...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=801016">hulkook</a></div>
+                                                    <div>05-12-2008, 4:25 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">618</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/91.aspx">Internet Explorer Web Controls</a>
+								            
+									        <div>General discussion of the Internet Explorer Web Controls source package for ASP.NET 1.x.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Web Controls not showing properly" href="/p/482598/2372738.aspx#2372738">Re: Web Controls...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=48191">ReyN</a></div>
+                                                    <div>05-21-2008, 10:57 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">2,383</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/149.aspx">.Text (Blogs)</a>
+								            
+									        <div>.Text is a powerful blogging engine that is used to host hundreds of blogs for ASP.NET 1.x.
+<a target="_blank" href="http://www.gotdotnet.com/Community/Workspaces/Workspace.aspx?id=e99fccb3-1a8c-42b5-90ee-348f6b77c407">.Text GDN Workspace</a>
+<a href="http://aspadvice.com/SignUp/list.aspx?l=153&amp;c=25">Mailing List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: SubText integration with existing website (With or without m" href="/p/1263004/2365572.aspx#2365572">Re: SubText integration...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=24607">XIII</a></div>
+                                                    <div>05-19-2008, 5:29 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,026</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/129.aspx">nGallery</a>
+								            
+									        <div>Discuss the nGallery image gallery source project for ASP.NET 1.x. <a href="http://www.ngallery.org/" target="_blank">nGallery Website</a> <a href="http://aspadvice.com/SignUp/list.aspx?l=155&c=25" target="_blank">Email List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: A generic error occurred in GDI+" href="/p/624305/2328953.aspx#2328953">Re: A generic error...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=700003">liammclennan</a></div>
+                                                    <div>04-29-2008, 11:37 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">514</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="http://www.communityserver.org">Community Server</a>
+								            
+									        <div>Discuss Community Server for ASP.NET 1.x and above.</div>
+									        <b>Subforum(s) </b><a href="/74.aspx">Forums Configurator</a>
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Can CS Express Edition do all this?" href="/p/1212961/2143522.aspx#2143522">Re: Can CS Express...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=636783">StrongTypes</a></div>
+                                                    <div>01-30-2008, 4:15 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">516</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/131.aspx">GotCommunityNet</a>
+								            
+									        <div>Discuss the GotCommunityNet open source application for ASP.NET 1.x.  <a href="http://www.gotdotnet.com/community/workspaces/default.aspx?id=39959859-68b5-4f5e-bd85-c1a8555e39a9" target="_blank">GotCommunityNet Home</a> <a href="http://aspadvice.com/SignUp/list.aspx?l=156&c=25" target="_blank">Email List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: IIS Remoting is breaking my back -- SOS -- Help -- Man over " href="/p/1164502/1933543.aspx#1933543">Re: IIS Remoting...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=612463">erikkl2000</a></div>
+                                                    <div>09-29-2007, 9:06 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">329</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/67.aspx">Cassini Sample Web Server</a>
+								            
+									        <div>Discuss the source code to the Cassini Sample Web Server for ASP.NET 1.x.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Cassini - &quot;This error can be caused by a virtual direct" href="/p/1259900/2352191.aspx#2352191">Re: Cassini - &quot;This...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=800944">mikexkearney</a></div>
+                                                    <div>05-12-2008, 9:42 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">472</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1134.aspx">Codeplex Club Starter Kit</a>
+								            
+									        <div>Discussions about the Codeplex Club Starter Kit, which extends Microsoft’s Club Web Site Starter Kit for ASP.NET 2.0.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Edit Photo Details?" href="/p/1264009/2378869.aspx#2378869">Re: Edit Photo Details...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=801217">riscfl</a></div>
+                                                    <div>05-24-2008, 10:35 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">112</td>
+							        </tr>
+						        
+							        </tbody>
+							        </table>				
+						        
+				        </div>
+			    </div>
+            
+  		        
+
+<div align="center" style="padding-top:5px;padding-bottom:5px;">
+<iframe src="/a/Banner.htm" width="468" height="60" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+</div>
+            
+                <div class="CommonListArea">
+			        <div id="ctl00_ctl00_bcr_bcr_ctl01_ctl17_ctl00_Header" class="Expanded">
+				            <div class="CommonListTitle">
+				                <div class="CommonListTitleRight"></div>
+				                <h2><a href="/default.aspx?GroupID=31">Microsoft Downloads</a></h2>
+                                
+                                
+                            </div>
+                            <div class="CommonListTitleBottom"><span></span></div>
+				        </div><div id="ctl00_ctl00_bcr_bcr_ctl01_ctl17_ctl00_Content">
+				            
+							        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#DCE4F9">
+							        <thead>
+								        <tr> 
+									        <th nowrap="nowrap" class="CommonListHeaderLeftMost ForumGroupImageAndNameHeader" align="center">Forums</th>
+									        <th class="CommonListHeader ForumGroupLastPostHeader">Last Post</th>                                    
+									        <th class="CommonListHeader ForumGroupTotalThreadsHeader" align="center">Threads</th>
+								        </tr>
+							        </thead>
+							        <tbody>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/186.aspx">Member Management Component</a>
+								            
+									        <div>Discussion of Microsoft's Member Management Component for ASP.NET 1.x</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: ProfileBase -vs- ProfileCommon" href="/p/1246405/2296925.aspx#2296925">Re: ProfileBase...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=682114">anas</a></div>
+                                                    <div>04-14-2008, 12:55 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">43</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1018.aspx">CSS Friendly Control Adapters</a>
+								            
+									        <div>Discuss the CSS Friendly Control Adapters sample project, ask questions, post bugs, etc</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a href="/p/1265667/2378325.aspx#2378325">Re: link redirection</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=615344">saquib189</a></div>
+                                                    <div>05-24-2008, 6:43 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">777</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1107.aspx">Anti-Cross Site Scripting Library</a>
+								            
+									        <div>Discuss the Anti-Cross Site Scripting Library</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: how to use Partially Trusted Caller Attribute with Anti-Cros" href="/p/1074265/2383026.aspx#2383026">Re: how to use Partially...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=797600">digger</a></div>
+                                                    <div>1 hour, 3 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">17</td>
+							        </tr>
+						        
+							        </tbody>
+							        </table>				
+						        
+				        </div>
+			    </div>
+            
+                <div class="CommonListArea">
+			        <div id="ctl00_ctl00_bcr_bcr_ctl01_ctl19_ctl00_Header" class="Expanded">
+				            <div class="CommonListTitle">
+				                <div class="CommonListTitleRight"></div>
+				                <h2><a href="/default.aspx?GroupID=5">Development Tools</a></h2>
+                                
+                                
+                            </div>
+                            <div class="CommonListTitleBottom"><span></span></div>
+				        </div><div id="ctl00_ctl00_bcr_bcr_ctl01_ctl19_ctl00_Content">
+				            
+							        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#DCE4F9">
+							        <thead>
+								        <tr> 
+									        <th nowrap="nowrap" class="CommonListHeaderLeftMost ForumGroupImageAndNameHeader" align="center">Forums</th>
+									        <th class="CommonListHeader ForumGroupLastPostHeader">Last Post</th>                                    
+									        <th class="CommonListHeader ForumGroupTotalThreadsHeader" align="center">Threads</th>
+								        </tr>
+							        </thead>
+							        <tbody>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/30.aspx">Web Matrix General Discussions</a>
+								            
+									        <div>Discuss the ASP.NET Web Matrix development tool.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: error rendering control" href="/p/1014720/2341856.aspx#2341856">Re: error rendering...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=793957">Dozen</a></div>
+                                                    <div>05-06-2008, 11:45 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">2,242</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/34.aspx">Macromedia Dreamweaver MX</a>
+								            
+									        <div>Discuss using Dreamweaver MX for building ASP.NET solutions.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: working fine in ie6 but not on mozilla firefox" href="/p/1243321/2381455.aspx#2381455">Re: working fine...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=664540">Scholar111</a></div>
+                                                    <div>17 hours, 18 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">295</td>
+							        </tr>
+						        
+							        </tbody>
+							        </table>				
+						        
+				        </div>
+			    </div>
+            
+  		        
+
+<div align="center" style="padding-top:5px;padding-bottom:5px;">
+<iframe src="/a/Banner.htm" width="468" height="60" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+</div>
+            
+                <div class="CommonListArea">
+			        <div id="ctl00_ctl00_bcr_bcr_ctl01_ctl21_ctl00_Header" class="Expanded">
+				            <div class="CommonListTitle">
+				                <div class="CommonListTitleRight"></div>
+				                <h2><a href="/default.aspx?GroupID=29">Windows Hosting</a></h2>
+                                
+                                
+                            </div>
+                            <div class="CommonListTitleBottom"><span></span></div>
+				        </div><div id="ctl00_ctl00_bcr_bcr_ctl01_ctl21_ctl00_Content">
+				            
+							        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#DCE4F9">
+							        <thead>
+								        <tr> 
+									        <th nowrap="nowrap" class="CommonListHeaderLeftMost ForumGroupImageAndNameHeader" align="center">Forums</th>
+									        <th class="CommonListHeader ForumGroupLastPostHeader">Last Post</th>                                    
+									        <th class="CommonListHeader ForumGroupTotalThreadsHeader" align="center">Threads</th>
+								        </tr>
+							        </thead>
+							        <tbody>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/158.aspx">Hosting Open Forum</a>
+								            
+									        <div>General discussions concerning ASP.NET in a Windows Hosting environment</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: .Net Components - Shared Hosting" href="/p/1266604/2383124.aspx#2383124">Re: .Net Components...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=803716">ejschaefer</a></div>
+                                                    <div>28 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">3,881</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/167.aspx">Microsoft Provisioning System (MPS)</a>
+								            
+									        <div>Discuss the components that enable transactional provisioning of hosted services.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: MPS Web Services - Perl (SOAP::Lite) client code example que" href="/p/1167522/2373338.aspx#2373338">Re: MPS Web Services...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=802959">Hansklose</a></div>
+                                                    <div>05-22-2008, 4:23 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,023</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/160.aspx">Web Hosting with IIS and ASP.NET</a>
+								            
+									        <div>Discuss the operation of Windows Server 2003 and IIS 6.0 in a services provider hosted environment.</div>
+									        <b>Subforum(s) </b><a href="/163.aspx">Data Hosting Operations</a>, <a href="/184.aspx">Windows SharePoint Services Hosting</a>
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: &quot;Cannot use a leading .. to exit above the top director" href="/p/1019849/2379604.aspx#2379604">Re: &quot;Cannot...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=150341">worldspawn[]</a></div>
+                                                    <div>05-25-2008, 10:10 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,109</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/164.aspx">Microsoft Solution for Windows-based Hosting</a>
+								            
+									        <div>Discuss the components of the Microsoft Solution for Windows-based Hosting.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Very bad!! Use WebDAV to get web Calendar different from  ou" href="/p/1257128/2356974.aspx#2356974">Re: Very bad!! Use...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=801336">jyrki.heinonen</a></div>
+                                                    <div>05-14-2008, 7:30 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">136</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/159.aspx">Microsoft Solution for Hosted Exchange</a>
+								            
+									        <div>Discuss the components of the Microsoft Solution for Hosted Exchange.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Dynamic Distribution Groups?" href="/p/1205741/2380156.aspx#2380156">Re: Dynamic Distribution...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=712352">PowerK6</a></div>
+                                                    <div>05-26-2008, 4:06 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,085</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1129.aspx">Commerce Extensions</a>
+								            
+									        <div>Commerce extensions for building hosted e-commerce applications</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Recommend a provider for gateway/merchant processing?" href="/p/1257424/2340954.aspx#2340954">Re: Recommend a...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=691910">jwalin</a></div>
+                                                    <div>05-06-2008, 1:03 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">7</td>
+							        </tr>
+						        
+							        </tbody>
+							        </table>				
+						        
+				        </div>
+			    </div>
+            
+                <div class="CommonListArea">
+			        <div id="ctl00_ctl00_bcr_bcr_ctl01_ctl23_ctl00_Header" class="Expanded">
+				            <div class="CommonListTitle">
+				                <div class="CommonListTitleRight"></div>
+				                <h2><a href="/default.aspx?GroupID=36">Community</a></h2>
+                                
+                                
+                            </div>
+                            <div class="CommonListTitleBottom"><span></span></div>
+				        </div><div id="ctl00_ctl00_bcr_bcr_ctl01_ctl23_ctl00_Content">
+				            
+							        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#DCE4F9">
+							        <thead>
+								        <tr> 
+									        <th nowrap="nowrap" class="CommonListHeaderLeftMost ForumGroupImageAndNameHeader" align="center">Forums</th>
+									        <th class="CommonListHeader ForumGroupLastPostHeader">Last Post</th>                                    
+									        <th class="CommonListHeader ForumGroupTotalThreadsHeader" align="center">Threads</th>
+								        </tr>
+							        </thead>
+							        <tbody>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/11.aspx">Announcements</a>
+								            
+									        <div>Learn of the latest ASP.NET-related articles, tools, products, and other resources. 
+<a href="http://aspadvice.com/SignUp/list.aspx?l=7&c=16" target="_blank">Email List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Smarties 2008 1.9.0 released" href="/p/1266748/2382426.aspx#2382426">Smarties 2008 1...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=782219">MojabSoftware</a></div>
+                                                    <div>4 hours, 37 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">2,201</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/53.aspx">Tips & Tricks</a>
+								            
+									        <div>Cool code and exciting examples, provided by our members.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Create Sortable Collections under 60 Seconds" href="/p/1266807/2382732.aspx#2382732">Create Sortable...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=782219">MojabSoftware</a></div>
+                                                    <div>2 hours, 41 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">794</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/58.aspx">Book Reviews</a>
+								            
+									        <div>Discuss your favorite ASP.NET books here. <a href="http://aspadvice.com/SignUp/list.aspx?l=70&c=16" target="_blank">Email List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="ASP.net 1.1 Performance Tuning Books Still Relevant to ASP.net 2" href="/p/1266065/2379205.aspx#2379205">ASP.net 1.1 Performance...</a>
+                                                    <div>by <a title="scott@elbandit.co.uk" href="/user/Profile.aspx?UserID=704783">scott@elbandit.co...</a></div>
+                                                    <div>05-25-2008, 10:10 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">629</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/69.aspx">Component Discussions</a>
+								            
+									        <div>Discuss your favorite ASP.NET components here. <a href="http://aspadvice.com/SignUp/list.aspx?l=70&c=16" target="_blank">Email List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a href="/p/1266644/2381873.aspx#2381873"> telerik RadTabStrip</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=802233">Manish Agrawal</a></div>
+                                                    <div>8 hours, 53 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">1,371</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/59.aspx">Jobs</a>
+								            
+									        <div>Looking or have an opening for ASP.NET related work?</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: What could be considered a good salary ?" href="/p/1251535/2380683.aspx#2380683">Re: What could be...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=698095">skynyrd</a></div>
+                                                    <div>05-26-2008, 7:50 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">2,585</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/12.aspx">Free For All</a>
+								            
+									        <div>Unmoderated open discussions for anything concerning Microsoft .NET and related technologies.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: The specified network name is no longer available" href="/p/1258132/2383151.aspx#2383151">Re: The specified...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=714071">mgturner</a></div>
+                                                    <div>16 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">7,713</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/52.aspx">Test Forum</a>
+								            
+									        <div>Use this unmoderated forum to test the forum system - posts will be occasionally deleted.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a href="/p/1262647/2365458.aspx#2365458">Re: Test</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=783788">Talib_dotnet</a></div>
+                                                    <div>05-19-2008, 4:24 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">167</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1014.aspx">Test Moderated Forum</a>
+								            
+									        
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a href="/p/1255621/2332988.aspx#2332988">Test</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=799080">SillyFencer</a></div>
+                                                    <div>05-01-2008, 6:08 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">84</td>
+							        </tr>
+						        
+							        </tbody>
+							        </table>				
+						        
+				        </div>
+			    </div>
+            
+  		        
+
+<div align="center" style="padding-top:5px;padding-bottom:5px;">
+<iframe src="/a/Banner.htm" width="468" height="60" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+</div>
+            
+                <div class="CommonListArea">
+			        <div id="ctl00_ctl00_bcr_bcr_ctl01_ctl25_ctl00_Header" class="Expanded">
+				            <div class="CommonListTitle">
+				                <div class="CommonListTitleRight"></div>
+				                <h2><a href="/default.aspx?GroupID=1">.NET Languages</a></h2>
+                                
+                                
+                            </div>
+                            <div class="CommonListTitleBottom"><span></span></div>
+				        </div><div id="ctl00_ctl00_bcr_bcr_ctl01_ctl25_ctl00_Content">
+				            
+							        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#DCE4F9">
+							        <thead>
+								        <tr> 
+									        <th nowrap="nowrap" class="CommonListHeaderLeftMost ForumGroupImageAndNameHeader" align="center">Forums</th>
+									        <th class="CommonListHeader ForumGroupLastPostHeader">Last Post</th>                                    
+									        <th class="CommonListHeader ForumGroupTotalThreadsHeader" align="center">Threads</th>
+								        </tr>
+							        </thead>
+							        <tbody>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/36.aspx">Visual Basic .NET</a>
+								            
+									        <div>Discussions/Questions about the Visual Basic .NET language. <a href="http://aspadvice.com/SignUp/list.aspx?l=14&c=23" target="_blank">Email List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Type.GetType does not work in VB.NET but works in C#. VB.NET" href="/p/1265679/2382569.aspx#2382569">Re: Type.GetType...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=710058">ziqbalbh</a></div>
+                                                    <div>3 hours, 47 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">3,057</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/37.aspx">C#</a>
+								            
+									        <div>Discussions/Questions about the C# language. <a href="http://aspadvice.com/SignUp/list.aspx?l=13&c=23" target="_blank">Email List</a></div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a href="/p/1266841/2382942.aspx#2382942">Help with Exception</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=789294">freesoftware</a></div>
+                                                    <div>1 hour, 30 minutes ago</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">5,096</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/38.aspx">Other</a>
+								            
+									        <div>Discussions/Questions about other .NET languages.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Re: Eject CD in a ASP.NET process" href="/p/1260717/2379053.aspx#2379053">Re: Eject CD in...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=801236">violtomte</a></div>
+                                                    <div>05-25-2008, 6:00 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">124</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/1098.aspx">IronPython for ASP.NET</a>
+								            
+									        <div>Discussions/Questions about IronPython for ASP.NET</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Hidden reference to IronPython 1.1 assembly ?" href="/p/1250230/2308544.aspx#2308544">Hidden reference...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=796908">Galaxstar</a></div>
+                                                    <div>04-19-2008, 11:34 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">40</td>
+							        </tr>
+						        
+							        </tbody>
+							        </table>				
+						        
+				        </div>
+			    </div>
+            
+                <div class="CommonListArea">
+			        <div id="ctl00_ctl00_bcr_bcr_ctl01_ctl27_ctl00_Header" class="Expanded">
+				            <div class="CommonListTitle">
+				                <div class="CommonListTitleRight"></div>
+				                <h2><a href="/default.aspx?GroupID=32">About This Site</a></h2>
+                                
+                                
+                            </div>
+                            <div class="CommonListTitleBottom"><span></span></div>
+				        </div><div id="ctl00_ctl00_bcr_bcr_ctl01_ctl27_ctl00_Content">
+				            
+							        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#DCE4F9">
+							        <thead>
+								        <tr> 
+									        <th nowrap="nowrap" class="CommonListHeaderLeftMost ForumGroupImageAndNameHeader" align="center">Forums</th>
+									        <th class="CommonListHeader ForumGroupLastPostHeader">Last Post</th>                                    
+									        <th class="CommonListHeader ForumGroupTotalThreadsHeader" align="center">Threads</th>
+								        </tr>
+							        </thead>
+							        <tbody>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/187.aspx">What's New</a>
+								            
+									        <div>Here we let you know what is going on with the www.asp.net website, including site updates, maintenance windows, etc.</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Site outage - March 6, 2008" href="/p/1230445/2219274.aspx#2219274">Site outage - March...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=55033">tmorton</a></div>
+                                                    <div>03-07-2008, 12:07 PM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">22</td>
+							        </tr>
+						        
+							        <tr class="CommonListRow">
+								        <td class="CommonListCell ForumGroupNameColumn">
+								            <a class="ForumGroupNameRead" href="/188.aspx">Feedback on this website</a>
+								            
+									        <div>What do you think about the site currently? Let us know!</div>
+									        
+								        </td>
+								        <td class="CommonListCell ForumGroupLastPostColumn">
+								            
+            					                    <a title="Entity framework videos" href="/p/1266270/2380109.aspx#2380109">Entity framework...</a>
+                                                    <div>by <a href="/user/Profile.aspx?UserID=24607">XIII</a></div>
+                                                    <div>05-26-2008, 3:41 AM</div>
+                                                
+                                            &nbsp;
+								        </td>
+								        <td class="CommonListCell ForumGroupTotalThreadsColumn" align="center">2,836</td>
+							        </tr>
+						        
+							        </tbody>
+							        </table>				
+						        
+				        </div>
+			    </div>
+            
+
+
+
+        
+                <div class="CommonInlineMessageTitle">
+                    <div class="CommonInlineMessageTitleRight"></div>
+                    <h2>Forum Statistics</h2>
+                </div>
+                <div class="CommonInlineMessageArea">
+                    <div class="CommonInlineMessageTop"><span></span></div>
+                    <div class="CommonInlineMessageContent">    
+                        <p>   
+                        There are 
+                        <b>3,311</b> guest(s) online.
+                        There are 
+                        <b>229</b> member(s) online.
+                        &nbsp;<a href="/user/ViewOnline.aspx">Who is online?</a>
+                        <br />
+                        <br />                         
+                        <b>362,943</b>
+                        users have contributed to
+                        <b>1,188,005</b>
+                        threads and
+                        <b>2,151,903</b>
+                        posts.
+                        <br />
+                        <br />
+                        In the past 24 hours, we have
+                        <b>414</b>
+                        new thread(s),
+                        <b>1,986</b>
+                        new post(s), and
+                        <b>182</b>
+                        new user(s).
+                        <br />
+                        <br />
+                        In the past 3 days, 
+                        the most popular thread for everyone has been 
+                        &quot;<a href="/thread/1446560.aspx">'Sys' is undefined.</a>&quot;.
+                        The post with the most views is 
+                        &quot;<a href="/thread/2380600.aspx">problem using javascript</a>&quot;.
+                        The most replies were made to 
+                        &quot;<a href="/thread/1446560.aspx">'Sys' is undefined.</a>&quot;.
+                        <br />
+                        <br />					
+                        Please welcome our newest member
+                        <b><a href="/user/Profile.aspx?UserID=803815">iilyas</a></b>.
+                        </p>
+                </div>
+                    <div class="CommonInlineMessageBottom"><span></span></div>
+                </div>
+            
+    	
+	    <div align="right" class="CommonFeedArea">
+		    <div class="rssplain"><a href="/aggregaterss.aspx?Mode=0"><img id="ctl00_ctl00_bcr_bcr_AggregateRss1_ctl02_Image1" src="/utility/images/feedicon.png" alt="" style="border-width:0px;" /> RSS Available</a></div>
+	    </div>
+	</div>
+</div>
+
+
+		            </div>
+		        </div>
+		        
+		        
+
+<div align="center" style="padding-top:5px;padding-bottom:5px;">
+<iframe src="/a/Banner.htm" width="468" height="60" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+</div>
+
+		        <div style="clear:both;"><!-- clear --></div>
+		        <div style="clear:both;"><!-- clear --></div>
+
+                   
+                    
+                <div id="ctl00_ctl00_IntlKanoodleFooter" class="ad_text_blocks" style="clear: both;">
+                <p>
+                        <script language="javascript">
+                            document.write(getInternationalTextAdsMarkup("1"));
+                        </script>
+                    </p>
+                    <p>
+                        <script language="javascript">
+                            document.write(getInternationalTextAdsMarkup("2"));
+                        </script>
+                    </p>
+                    <p>
+                        <script language="javascript">
+                            document.write(getInternationalTextAdsMarkup("3"));
+                        </script>
+                    </p>
+                    <div class="clear"></div>
+                </div>                       
+                    
+                    
+                
+                <div class="footer_container"><a href="#"><img src="/Themes/FAN/style/i/logo.png" alt="Microsoft ASP.net" width="108" height="44" class="logo" /></a>
+                    <div class="footer_content">
+                        <div class="footer_group first">
+                            <p>Advertise on ASP.NET</p>
+                            <ul>
+                                <li><a href="http://www.asp.net/Advertise/">Interested in advertising with us?</a></li>
+                                <li><a href="http://www.banmanpro.com/">Graphic ads served by BanManPro</a></li>
+                                <li><a href="http://www.kanoodle.com/">Text ads served by Kanoodle</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_group">
+                            <p>About this Site</p>
+                            <ul>
+                                <li><a href="http://www.asp.net/feedback/">Questions / Problems with this site?</a></li>
+                                <li><a href="http://www.orcsweb.com/">Visit our hoster: ORCS Web</a></li>
+                                <li><a href="http://www.iis.net/">Running IIS 7.0</a></li>
+                                <!--li><a href="http://www.communityserver.org">Forums Powered by Community Server 2007</a></li-->
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="footer_bottom"><span></span></div>
+                </div>
+                <div class="footer_legal" id="footerLegalId">
+                    <p>&copy; 2008 Microsoft Corporation. All Rights Reserved.&nbsp;|&nbsp;<a href="http://www.microsoft.com/info/cpyright.mspx">Terms of Use</a>&nbsp;|&nbsp;<a href="http://www.microsoft.com/library/toolbar/3.0/trademarks/en-us.mspx">Trademarks</a>&nbsp;|&nbsp;<a href="http://www.asp.net/privacy/">Privacy Statement</a></p>
+                </div>
+
+            </div>
+		
+<script type="text/javascript">
+// <![CDATA[
+Telligent_Modal.Configure('/utility/loading.htm',['CommonModal','CommonModal1','CommonModal2','CommonModal3','CommonModal4','CommonModal5'],['CommonModalTitle'],['CommonModalClose'],['CommonModalContent'],['CommonModalFooter'],['CommonModalResize'],['CommonModalMask'],100);
+// ]]>
+</script><script type="text/javascript">
+<!--
+function KeyDownHandlerctl00_ctl00_bhcr_SearchForm1_ctl00_TitleBarSearchButton(event)
+{
+	if (event.keyCode == 13)
+	{
+		event.returnValue = false;
+		event.cancel = true;
+     __doPostBack('ctl00$ctl00$bhcr$SearchForm1$ctl00$TitleBarSearchButton','')
+   return false;
+	}
+}
+
+//-->
+</script>
+</form>
+		
+	</body>
+</html>

@@ -1,0 +1,57 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Agenda Bahia</title>
+
+    <script src="script/JScript.js" type="text/javascript"></script>
+    <script language="javascript" src="script/textzoom.js" type="text/javascript"></script>
+    
+    <link href="style/general.css" rel="stylesheet" type="text/css" />
+    <link href="style/fan.css" rel="stylesheet" type="text/css" />
+    <link href="style/menu.css" rel="stylesheet" type="text/css" />
+
+    <!--|**START IMENUS**|imenus0,inline-->
+    <!-- ****** Infinite Menus Core CSS [Do Not Modify!] ****** -->
+    <style type="text/css">.imcm ul,.imcm li,.imcm div,.imcm span,.imcm a{text-align:left;vertical-align:top;padding:0px;margin:0;list-style:none outside none;border-style:none;background-image:none;clear:none;float:none;display:block;position:static;overflow:visible;line-height:normal;}.imcm li a img{display:inline;border-width:0px;}.imcm span{display:inline;}.imcm .imclear,.imclear{clear:both;height:0px;visibility:hidden;line-height:0px;font-size:1px;}.imcm .imsc{position:relative;}.imcm .imsubc{position:absolute;visibility:hidden;}.imcm li{list-style:none;font-size:1px;float:left;}.imcm ul ul li{width:100%;float:none !important;}.imcm a{display:block;position:relative;}.imcm ul .imsc,.imcm ul .imsubc {z-index:10;}.imcm ul ul .imsc,.imcm ul ul .imsubc{z-index:20;}.imcm ul ul ul .imsc,.imcm ul ul ul .imsubc{z-index:30;}.imde ul li:hover .imsubc{visibility:visible;}.imde ul ul li:hover  .imsubc{visibility:visible;}.imde ul ul ul li:hover  .imsubc{visibility:visible;}.imde li:hover ul  .imsubc{visibility:hidden;}.imde li:hover ul ul .imsubc{visibility:hidden;}.imde li:hover ul ul ul  .imsubc{visibility:hidden;}.imcm .imea{display:block;position:relative;left:0px;font-size:1px;line-height:1px;height:0px;width:1px;float:right;}.imcm .imea span{display:block;position:relative;font-size:1px;line-height:0px;}.dvs,.dvm{border-width:0px}/*\*//*/.imcm .imea{visibility:hidden;}/**/</style><!--[if IE]><style type="text/css">.imcm .imea span{position:absolute;}.imcm .imclear,.imclear{display:none;}.imcm{zoom:1;} .imcm li{curosr:hand;} .imcm ul{zoom:1}.imcm a{zoom:1;}</style><![endif]--><!--[if gte IE 7]><style type="text/css">.imcm .imsubc{background-image:url(ie_css_fix);}</style><![endif]-->
+    <!-- ***** Infinite Menus CSS Style Settings ***** -->
+    <link rel="stylesheet" href="style/imenus0.css" type="text/css"> 
+     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+   <!-- <form id="form1" runat="server">
+    <div class="topo_login">Usuário: <asp:Label ID="lblnm_usuario" Font-Bold="true" runat="server"></asp:Label> 
+        <span id="topoUsuario" runat="server">
+          [<asp:HyperLink ID="HyperLink1" ForeColor="Yellow" NavigateUrl="~/frmDados.aspx" runat="server">alterar dados</asp:HyperLink>]&nbsp;
+          [<asp:HyperLink ID="HyperLink2" ForeColor="Yellow" NavigateUrl="~/frmSenha.aspx" runat="server">alterar senha</asp:HyperLink>]&nbsp;
+        </span>
+    [<asp:LinkButton ID="btnSair" runat="server" ForeColor="Yellow" CausesValidation="false" onclick="btnSair_Click">sair</asp:LinkButton>]
+    </div>
+    <div class="topo_geral">&nbsp</div>
+    <table style="width:100%">
+    <tr>
+    <th style="width:70%">
+    <p class="pzoom">
+    <small>TAMANHO DO TEXTO</small>  <a href="javascript:ts('body',1)" title="Aumentar"><b>A+</b></a>
+    <a href="javascript:ts('body',-1)"  title="Diminuir"><b>A-</b></a>
+    </p>
+    </th>
+    <th>
+    </th>
+    </tr>
+    </table>-->
+ 
+    
+    
+     <div id="texto">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

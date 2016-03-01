@@ -124,6 +124,16 @@
                     <ItemStyle HorizontalAlign="Left" Width="300px"></ItemStyle>
                 </asp:TemplateField>
 
+                <asp:TemplateField HeaderText="Meta" SortExpression="ds_iniciativa" HeaderStyle-HorizontalAlign="Left" ItemStyle-HorizontalAlign="Left" ItemStyle-Width="300px">
+                    <ItemTemplate>
+                        <%#Eval("ds_iniciativa") %>
+                    </ItemTemplate>
+
+                    <HeaderStyle HorizontalAlign="Left"></HeaderStyle>
+
+                    <ItemStyle HorizontalAlign="Left" Width="300px"></ItemStyle>
+                </asp:TemplateField>
+
                 <asp:TemplateField HeaderText="Ação N°" SortExpression="nu_acao" HeaderStyle-HorizontalAlign="Left" ItemStyle-HorizontalAlign="Left" ItemStyle-Width="300px">
                     <ItemTemplate>
                         <%#Eval("nu_acao") %>
@@ -228,13 +238,23 @@
                     <table>
                         <tr>
                             <td>
-                                <label>Área:</label>
+                                <label>Programa:</label>
                             </td>
                             <td>
-                                <asp:TextBox ID="txtnm_acao" Width="350px" MaxLength="200" runat="server"></asp:TextBox>
-                                <asp:RequiredFieldValidator id="RequiredFieldValidator6" ControlToValidate="txtnm_acao" ErrorMessage="*campo obrigatório" runat="server" Display="Dynamic" />
+                                <asp:TextBox ID="txtcd_programa" Width="350px" runat="server"></asp:TextBox>
                             </td>
                         </tr>
+                        
+                            <tr>
+                                <td>
+                                    <label>Área:</label>
+                                </td>
+                                <td>
+                                    <asp:TextBox ID="txtnm_acao" Width="350px" MaxLength="200" runat="server"></asp:TextBox>
+                                    <asp:RequiredFieldValidator id="RequiredFieldValidator6" ControlToValidate="txtnm_acao" ErrorMessage="*campo obrigatório" runat="server" Display="Dynamic" />
+                                </td>
+                            </tr>
+                        
                         <tr>
                             <td>
                                 <label>Compromisso:</label>
@@ -243,6 +263,40 @@
                                 <asp:TextBox ID="txtds_compromisso" Width="350px" runat="server"></asp:TextBox>
                             </td>
                         </tr>
+                        <tr>
+                            <td>
+                                <label>Meta:</label>
+                            </td>
+                            <td>
+                                <asp:TextBox ID="txtds_meta" Width="350px" runat="server" TextMode="MultiLine" Height="50px"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Responsavel:</label>
+                            </td>
+                            <td>
+                                <asp:TextBox ID="txtds_setor" Width="350px" runat="server"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Iniciativa:</label>
+                            </td>
+                            <td>
+                                <asp:TextBox ID="txtds_iniciativa" Width="350px" runat="server" TextMode="MultiLine"></asp:TextBox>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <label>Público Alvo:</label>
+                            </td>
+                            <td>
+                                <asp:TextBox ID="txtds_palvo" Width="350px" runat="server" TextMode="MultiLine" Height="50px"></asp:TextBox>
+                            </td>
+                        </tr>
+
                         <tr>
                             <td>
                                 <label>N° Ação:</label>
@@ -283,42 +337,7 @@
                                 <asp:TextBox ID="txtds_fonte" Width="350px" runat="server"></asp:TextBox>
                             </td>
                         </tr>
-                        <tr>
-                            <td>
-                                <label>Meta:</label>
-                            </td>
-                            <td>
-                                <asp:TextBox ID="txtds_meta" Width="350px" runat="server" TextMode="MultiLine" Height="50px"></asp:TextBox>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <label>Responsavel:</label>
-                            </td>
-                            <td>
-                                <asp:TextBox ID="txtds_setor" Width="350px" runat="server"></asp:TextBox>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label>Programa:</label>
-                            </td>
-                            <td>
-                                <asp:TextBox ID="txtcd_programa" Width="350px" runat="server"></asp:TextBox>
-                            </td>
-                        </tr>
-
-
-
-                        <tr>
-                            <td>
-                                <label>Público Alvo:</label>
-                            </td>
-                            <td>
-                                <asp:TextBox ID="txtds_palvo" Width="350px" runat="server" TextMode="MultiLine" Height="50px"></asp:TextBox>
-                            </td>
-                        </tr>
+                        
                         <tr>
                             <td>
                                 <label>Andamento:</label>

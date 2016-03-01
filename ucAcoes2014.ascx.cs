@@ -128,6 +128,7 @@ public partial class ucAcoes : System.Web.UI.UserControl
                 txtvl_orcado.Text = t08.vl_orcado;
                 txtds_fonte.Text = t08.ds_fonte;
                 txtds_meta.Text = t08.ds_meta;
+                txtds_iniciativa.Text = t08.ds_iniciativa;
 
                 txtdt_inicio.Text = t08.dt_inicio.ToShortDateString();
                 txtdt_fim.Text = t08.dt_fim.ToShortDateString();
@@ -162,6 +163,7 @@ public partial class ucAcoes : System.Web.UI.UserControl
             t08.vl_orcado = pb.ReplaceAspas(txtvl_orcado.Text);
             t08.ds_fonte = pb.ReplaceAspas(txtds_fonte.Text);
             t08.ds_meta = pb.ReplaceAspas(txtds_meta.Text);
+            t08.ds_iniciativa = pb.ReplaceAspas(txtds_iniciativa.Text);
 
             t08.t02_cd_usuario = ddlt02_cd_usuario.SelectedValue;
             t08.ds_acao = pb.ReplaceAspas(txtds_acao.Text);

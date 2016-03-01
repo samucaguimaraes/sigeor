@@ -37,6 +37,7 @@ public class t08_acao
 	private string _vl_orcado;
 	private string _ds_fonte;
 	private string _ds_meta;
+	private string _ds_iniciativa;
 
 	#endregion
 
@@ -191,6 +192,11 @@ public class t08_acao
 		get { return _ds_meta; }
 		set { _ds_meta = value; }
 	}
+	public string ds_iniciativa
+	{
+		get { return _ds_iniciativa; }
+		set { _ds_iniciativa = value; }
+	}
 	#endregion
 
 	#region Functions/Routines
@@ -327,7 +333,8 @@ public class t08_acao
                 if (!Convert.IsDBNull(data["ds_subacao"])) _ds_subacao = (string) data["ds_subacao"];
                 if (!Convert.IsDBNull(data["vl_orcado"])) _vl_orcado = (string) data["vl_orcado"];
                 if (!Convert.IsDBNull(data["ds_fonte"])) _ds_fonte = (string) data["ds_fonte"];
-                if (!Convert.IsDBNull(data["ds_meta"])) _ds_meta = (string) data["ds_meta"];				
+                if (!Convert.IsDBNull(data["ds_meta"])) _ds_meta = (string) data["ds_meta"];
+                if (!Convert.IsDBNull(data["ds_iniciativa"])) _ds_meta = (string) data["ds_iniciativa"];				
 			}
 		}
 
@@ -377,7 +384,7 @@ public class t08_acao
 	{
 		SqlConnection sqlConn = new SqlConnection(pb.strConn());
         SqlCommand cmd = new SqlCommand("insert into t08_acao values(@t03_cd_projeto,"+
-            "'plima', @nm_acao, @ds_acao, @dt_inicio, @dt_fim, @dt_original, @dt_cadastro, @dt_alterado, 1, @ds_palvo, @ds_andamento, @ds_latuacao, @ds_parceiro, @dt_aviso, @ds_ano, @ds_setor, @cd_programa, @nu_acao, @ds_compromisso, @ds_subacao, @vl_orcado, @ds_fonte, @ds_meta)", sqlConn);
+            "'plima', @nm_acao, @ds_acao, @dt_inicio, @dt_fim, @dt_original, @dt_cadastro, @dt_alterado, 1, @ds_palvo, @ds_andamento, @ds_latuacao, @ds_parceiro, @dt_aviso, @ds_ano, @ds_setor, @cd_programa, @nu_acao, @ds_compromisso, @ds_subacao, @vl_orcado, @ds_fonte, @ds_meta, @ds_iniciativa)", sqlConn);
 		bool result;
 
 		cmd.Parameters.Add("@t03_cd_projeto", SqlDbType.Int).Value = _t03_cd_projeto;
@@ -404,7 +411,8 @@ public class t08_acao
         cmd.Parameters.Add("@ds_subacao", SqlDbType.Text).Value = _ds_subacao;
         cmd.Parameters.Add("@vl_orcado", SqlDbType.Text).Value = _vl_orcado;
         cmd.Parameters.Add("@ds_fonte", SqlDbType.Text).Value = _ds_fonte;
-        cmd.Parameters.Add("@ds_meta", SqlDbType.Text).Value = _ds_meta;		
+        cmd.Parameters.Add("@ds_meta", SqlDbType.Text).Value = _ds_meta;
+        cmd.Parameters.Add("@ds_iniciativa", SqlDbType.Text).Value = _ds_iniciativa;		
 
 		
 		try
@@ -435,7 +443,7 @@ public class t08_acao
 		SqlConnection sqlConn = new SqlConnection(pb.strConn());
         SqlCommand cmd = new SqlCommand("update t08_acao set t02_cd_usuario=@t02_cd_usuario, "+
             "nm_acao=@nm_acao, ds_acao=@ds_acao, dt_inicio=@dt_inicio, dt_fim=@dt_fim, dt_original=@dt_original, "+
-             "dt_cadastro=@dt_cadastro, dt_alterado=@dt_alterado, ds_palvo=@ds_palvo, ds_andamento=@ds_andamento, ds_latuacao=@ds_latuacao, ds_parceiro=@ds_parceiro,dt_aviso=@dt_aviso, ds_ano=@ds_ano, ds_setor=@ds_setor, cd_programa=@cd_programa, nu_acao=@nu_acao, ds_compromisso=@ds_compromisso, ds_subacao=@ds_subacao, vl_orcado=@vl_orcado, ds_fonte=@ds_fonte, ds_meta=@ds_meta where t08_cd_acao=@t08_cd_acao", sqlConn);
+             "dt_cadastro=@dt_cadastro, dt_alterado=@dt_alterado, ds_palvo=@ds_palvo, ds_andamento=@ds_andamento, ds_latuacao=@ds_latuacao, ds_parceiro=@ds_parceiro,dt_aviso=@dt_aviso, ds_ano=@ds_ano, ds_setor=@ds_setor, cd_programa=@cd_programa, nu_acao=@nu_acao, ds_compromisso=@ds_compromisso, ds_subacao=@ds_subacao, vl_orcado=@vl_orcado, ds_fonte=@ds_fonte, ds_meta=@ds_meta, ds_iniciativa=@ds_iniciativa where t08_cd_acao=@t08_cd_acao", sqlConn);
 		bool result;
 
 		cmd.Parameters.Add("@t08_cd_acao", SqlDbType.Int).Value = _t08_cd_acao;
@@ -465,6 +473,7 @@ public class t08_acao
         cmd.Parameters.Add("@vl_orcado", SqlDbType.Text).Value = _vl_orcado;
         cmd.Parameters.Add("@ds_fonte", SqlDbType.Text).Value = _ds_fonte;
         cmd.Parameters.Add("@ds_meta", SqlDbType.Text).Value = _ds_meta;
+        cmd.Parameters.Add("@ds_iniciativa", SqlDbType.Text).Value = _ds_iniciativa;
 	
 		try
 		{
